@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T16:47:20 IST" name="Default suite" finished-at="2024-06-07T16:47:30 IST" duration-ms="10681">
+    <groups>
+    </groups>
+    <test started-at="2024-06-07T16:47:20 IST" name="Default test" finished-at="2024-06-07T16:47:30 IST" duration-ms="10681">
+      <class name="testcase.FirstOpeartionTest">
+        <test-method is-config="true" signature="setUp_Logger()[pri:0, instance:testcase.FirstOpeartionTest@6fa51cd4]" started-at="2024-06-07T16:47:20 IST" name="setUp_Logger" finished-at="2024-06-07T16:47:20 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp_Logger -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.FirstOpeartionTest@6fa51cd4]" started-at="2024-06-07T16:47:21 IST" name="setup" finished-at="2024-06-07T16:47:26 IST" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testcase.FirstOpeartionTest@6fa51cd4]" started-at="2024-06-07T16:47:26 IST" name="search" data-provider="searchdata" finished-at="2024-06-07T16:47:29 IST" duration-ms="3060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcase.FirstOpeartionTest@6fa51cd4]" started-at="2024-06-07T16:47:29 IST" name="afterTest" finished-at="2024-06-07T16:47:30 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcase.FirstOpeartionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
