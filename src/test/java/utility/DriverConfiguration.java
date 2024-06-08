@@ -26,6 +26,8 @@ public class DriverConfiguration {
         
         if(browser.equalsIgnoreCase("chrome")) {
         	ChromeOptions opt=new ChromeOptions();
+        	opt.addArguments("--no-sandbox");
+            opt.addArguments("--disable-dev-shm-usage");
 			if(headlessProp) {
 				opt.addArguments("--headless=new");
 			}
@@ -34,6 +36,8 @@ public class DriverConfiguration {
 			
 		}else if(browser.equalsIgnoreCase("edge")) {
 			EdgeOptions opt=new EdgeOptions();
+			opt.addArguments("--no-sandbox");
+            opt.addArguments("--disable-dev-shm-usage");
 			if(headlessProp) {
 				opt.addArguments("--headless=new");
 			}
