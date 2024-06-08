@@ -34,6 +34,7 @@ public class BaseTest {
 		driver=driverConfig.getDriver();
 		logger.info("Driver is set up");
 		url=prop.getUrl();
+		System.out.println(url);
 		driver.get(url);
 		logger.info("Website Opened");
 		driver.manage().window().maximize();
