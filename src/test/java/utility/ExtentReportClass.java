@@ -25,7 +25,7 @@ public class ExtentReportClass implements ITestListener{
 		System.out.println("The extent is working");
 		String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
 		String reportName = "RestAssuredTestReport-" + timestamp + ".html";
-		htmlReporter = new ExtentSparkReporter("C:\\Users\\kartikeysharma\\Automation_QA\\ExitTestFinal\\src\\test\\resources\\reports"+ reportName);
+		htmlReporter = new ExtentSparkReporter("C:\\Users\\kartikeysharma\\Automation_QA\\ExitTestFinal\\src\\test\\resources\\reports\\"+ reportName);
 		reports = new ExtentReports();
 		reports.attachReporter(htmlReporter);		
 		htmlReporter.config().setDocumentTitle("Extent Report");
