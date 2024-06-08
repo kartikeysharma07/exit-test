@@ -22,32 +22,28 @@ public class DriverConfiguration {
 	private void setupDriver() {
 		String browser = prop.getBrowser();
         boolean headlessProp = prop.getHeadlessInfo();
+        System.out.println(((Object) prop.getHeadlessInfo()).getClass().getName());
         
         if(browser.equalsIgnoreCase("chrome")) {
-
+        	ChromeOptions opt=new ChromeOptions();
 			if(headlessProp) {
-				ChromeOptions opt=new ChromeOptions();
 				opt.addArguments("--headless=new");
-				WebDriverManager.chromedriver().setup();
-				driver=new ChromeDriver(opt);
 			}
-			else {
-				WebDriverManager.chromedriver().setup();
-				driver=new ChromeDriver();
-			}
+			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver(opt);
 			
 		}else if(browser.equalsIgnoreCase("edge")) {
+			EdgeOptions opt=new EdgeOptions();
 			if(headlessProp) {
-				EdgeOptions opt=new EdgeOptions();
 				opt.addArguments("--headless=new");
-				WebDriverManager.edgedriver().setup();
-				driver= new EdgeDriver(opt);
 			}
-			else {
-				WebDriverManager.edgedriver().setup();
-				driver= new EdgeDriver();
-			}
+			WebDriverManager.edgedriver().setup();
+			driver= new EdgeDriver(opt);
 		}
+        
+        if (driver == null) {
+            throw new RuntimeException("Failed to initialize WebDriver for browser: " + browser);
+        }
 	}
 
 	public WebDriver getDriver() {
