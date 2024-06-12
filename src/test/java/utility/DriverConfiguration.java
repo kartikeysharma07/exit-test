@@ -11,38 +11,39 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverConfiguration {
 	
 	public WebDriver driver;
-	public ReadPropertyFile prop;
+	public ReadPropertyFile prop=new ReadPropertyFile();
 	
 	public DriverConfiguration() {
-		prop= new ReadPropertyFile();
-		prop.configuration();
-		setupDriver();
 	}
 	
 	private void setupDriver() {
+		prop.configuration();
 		String browser = prop.getBrowser();
         boolean headlessProp = prop.getHeadlessInfo();
-        System.out.println(((Object) prop.getHeadlessInfo()).getClass().getName());
         
         if(browser.equalsIgnoreCase("chrome")) {
-        	ChromeOptions opt=new ChromeOptions();
-        	opt.addArguments("--no-sandbox");
-            opt.addArguments("--disable-dev-shm-usage");
 			if(headlessProp) {
+				ChromeOptions opt=new ChromeOptions();
 				opt.addArguments("--headless=new");
+				WebDriverManager.chromedriver().setup();
+				driver=new ChromeDriver(opt);
 			}
-			WebDriverManager.chromedriver().setup();
-			driver=new ChromeDriver(opt);
+			else {
+				WebDriverManager.chromedriver().setup();
+				driver=new ChromeDriver();
+			}
 			
 		}else if(browser.equalsIgnoreCase("edge")) {
-			EdgeOptions opt=new EdgeOptions();
-			opt.addArguments("--no-sandbox");
-            opt.addArguments("--disable-dev-shm-usage");
 			if(headlessProp) {
+				EdgeOptions opt=new EdgeOptions();
 				opt.addArguments("--headless=new");
+				WebDriverManager.edgedriver().setup();
+				driver= new EdgeDriver(opt);
 			}
-			WebDriverManager.edgedriver().setup();
-			driver= new EdgeDriver(opt);
+			else {
+				WebDriverManager.edgedriver().setup();
+				driver= new EdgeDriver();
+			}
 		}
         
         if (driver == null) {
@@ -51,6 +52,9 @@ public class DriverConfiguration {
 	}
 
 	public WebDriver getDriver() {
+		if (driver == null) {
+            setupDriver();
+        }
         return driver;
     }
 }

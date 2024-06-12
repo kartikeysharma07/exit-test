@@ -6,9 +6,9 @@
       <class name="testcase.SecondOperationTest">
         <methods>
           <include name="afterTest"/>
-          <include name="setUp_Logger"/>
+          <include name="setUp_Configurations"/>
           <include name="setup"/>
-          <include name="Electronics"/>
+          <include name="Signup"/>
         </methods>
       </class> <!-- testcase.SecondOperationTest -->
     </classes>

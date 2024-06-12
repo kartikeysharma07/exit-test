@@ -1,7 +1,14 @@
 pages\BasePage.class
-testcase\FirstOpeartionTest.class
+testcase\SecondOperationTest.class
+utility\ReadExcelData.class
+pages\ThirdOperationPage.class
+utility\DataProviderUtil.class
 utility\DriverConfiguration.class
+pages\SecondOperationPage.class
+utility\TakeScreenShot.class
+testcase\ThirdOperationTest.class
 pages\FirstOpeartionPage.class
+testcase\FirstOpeartionTest.class
 utility\ExtentReportClass.class
 utility\ReadPropertyFile.class
 testcase\BaseTest.class

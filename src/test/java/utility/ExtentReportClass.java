@@ -15,7 +15,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtentReportClass implements ITestListener{
+public class ExtentReportClass extends TakeScreenShot  implements ITestListener{
 	ExtentSparkReporter  htmlReporter;
 	ExtentReports reports;
 	ExtentTest test;
@@ -50,9 +50,11 @@ public class ExtentReportClass implements ITestListener{
 
 	public void onTestFailure(ITestResult Result) 					
 	{		
-		System.out.println("Name of test method failed:" + Result.getName() );  		
+		System.out.println("Name of test method failed From Extent Report:" + Result.getName() );  		
 		test = reports.createTest(Result.getName());
-		test.info("The is for the test :"+ Result.getName());
+		String path=getScreenshot();
+		test.info("The is for the test :"+ Result.getName())
+		.addScreenCaptureFromBase64String(path);
 		test.log(Status.FAIL, MarkupHelper.createLabel("Name of the failed test case is: " + Result.getName() ,ExtentColor.RED));
 		test.fail(Result.getThrowable());
 	}
@@ -68,7 +70,7 @@ public class ExtentReportClass implements ITestListener{
 
 	public void onTestStart(ITestResult Result)					
 	{		
-		System.out.println("Name of test method started:" + Result.getName() );  		
+		System.out.println("Name of test method started From Extent Report:" + Result.getName() );  		
 
 	}		
 
@@ -86,4 +88,5 @@ public class ExtentReportClass implements ITestListener{
 	{		
 
 	}
+	
 }

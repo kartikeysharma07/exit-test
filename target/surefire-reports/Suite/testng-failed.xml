@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utility.ExtentReportClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcase.FirstOpeartionTest">
+        <methods>
+          <include name="setUp_Configurations"/>
+          <include name="tearDownClass"/>
+          <include name="setup"/>
+          <include name="tearDownTest"/>
+          <include name="grocery" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.FirstOpeartionTest -->
+      <class name="testcase.ThirdOperationTest">
+        <methods>
+          <include name="setUp_Configurations"/>
+          <include name="tearDownClass"/>
+          <include name="setup"/>
+          <include name="Travel"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- testcase.ThirdOperationTest -->
+      <class name="testcase.SecondOperationTest">
+        <methods>
+          <include name="Login"/>
+          <include name="setUp_Configurations"/>
+          <include name="tearDownClass"/>
+          <include name="setup"/>
+          <include name="Signup"/>
+          <include name="tearDownTest"/>
+          <include name="Careers"/>
+        </methods>
+      </class> <!-- testcase.SecondOperationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
