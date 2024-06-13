@@ -74,16 +74,16 @@ public class ThirdOperationTest extends BaseTest {
 		
 	}
 	
-//	@Test(groups={"regression"},priority=6)
-//	public void Travel() {
-//		if(testExecutionInfo.containsKey("Travel")) {
-//			logger.info("Testing the Travel  operation");
-//			repo=new ThirdOperationPage(driver);
-//			repo.Travel();
-//			logger.info("Testing of Travel operation done");
-//		}
-//		else {
-//			logger.error("Travel is not activated");
-//		}
-//	}
+	@Test(groups={"regression"},priority=6)
+	public void Travel() {
+		if(testExecutionInfo.containsKey("Travel")) {
+			logger.info("Testing the Travel  operation");
+			repo=new ThirdOperationPage(driver);
+			repo.Travel();
+			logger.info("Testing of Travel operation done");
+		}
+		else {
+			logger.error("Travel is not activated");
+		}
+	}
 }

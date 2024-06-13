@@ -13,11 +13,13 @@ import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 
-public class ReadExcelData {
+public  class ReadExcelData {
 	
-	public Map<String,String>testExecutionInfo() {
-		Map<String,String> testInfo=new HashMap<>();
-		File file=new File("C:\\Users\\kartikeysharma\\Automation_QA\\ExitTestFinal\\src\\test\\resources\\testdata\\Data.xlsx");
+	private static final Map<String, String> testInfo = new HashMap<>();
+    private static final String FILE_PATH = "C:\\Users\\kartikeysharma\\Automation_QA\\ExitTestFinal\\src\\test\\resources\\testdata\\Data.xlsx";
+	public static Map<String,String>testExecutionInfo() {
+//		Map<String,String>  testInfo=new HashMap<>();
+		File file=new File(FILE_PATH);
 		FileInputStream fis;
 		try {
 			fis = new FileInputStream(file);
@@ -50,8 +52,8 @@ public class ReadExcelData {
 	
 	
 	
-	public String[][] getData(String excelSheetName) {
-		File file=new File("C:\\Users\\kartikeysharma\\Automation_QA\\ExitTestFinal\\src\\test\\resources\\testdata\\Data.xlsx");
+	public static String[][] getData(String excelSheetName) {
+		File file=new File(FILE_PATH);
 		FileInputStream fis;
 		try {
 			fis = new FileInputStream(file);

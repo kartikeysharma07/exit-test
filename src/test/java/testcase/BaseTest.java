@@ -23,7 +23,6 @@ public class BaseTest {
 	String url;
 	DriverConfiguration driverConfig;
 	public ReadPropertyFile prop;
-	ReadExcelData excelData = new ReadExcelData();
     Map<String, String> testExecutionInfo;
 	
 	static {
@@ -32,9 +31,9 @@ public class BaseTest {
 	
 	
 	public boolean isActive(String methodName) {
-	    testExecutionInfo = excelData.testExecutionInfo();
+		testExecutionInfo=ReadExcelData.testExecutionInfo();
 	    if (!testExecutionInfo.containsKey(methodName)) {
-	        logger.info("Test operation is not active for the " + methodName);
+	        logger.error("Test operation is not active for the " + methodName);
 	        return false;
 	    }
 	    
@@ -44,55 +43,24 @@ public class BaseTest {
 	@BeforeClass
 	public void setUp_Configurations() {
 		logger = LogManager.getLogger("ExitTest");
-//		driverConfig = new DriverConfiguration();
-//	    prop = new ReadPropertyFile();
-//	    prop.configuration();
-//	    driver = driverConfig.getDriver();
-//	    logger.info("Driver is set up");
-//	    url = prop.getUrl();
-//	    driver.get(url);
-//	    logger.info("Website Opened");
-//	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-//	    driver.manage().window().maximize();
 	}
 		
 	@BeforeMethod()
 	public void setup(Method method) {
 	    String methodName = method.getName();
-	    testExecutionInfo = excelData.testExecutionInfo();
 	    if (!isActive(methodName)) {
             return;
         }
-
-	    driverConfig = new DriverConfiguration();
-	    prop = new ReadPropertyFile();
-	    prop.configuration();
-	    driver = driverConfig.getDriver();
+	    
+	    driverConfig=new DriverConfiguration();
+	    driver=driverConfig.getDriver();
 	    logger.info("Driver is set up");
-	    url = prop.getUrl();
+	    url=ReadPropertyFile.getUrl();
 	    driver.get(url);
 	    logger.info("Website Opened");
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	    driver.manage().window().maximize();
 	}
-	
-//	@BeforeMethod
-//	public void setup(Method method) {
-//        String methodName = method.getName();
-//        if (!isActive(methodName)) {
-//            throw new SkipException("Skipping this test as the testExecution is not active: " + methodName);
-//        }
-//
-//        if (driver == null) {
-//            driver = driverConfig.getDriver();
-//            logger.info("Driver is set up");
-//            driver.get(url);
-//            logger.info("Website Opened");
-//            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-//            driver.manage().window().maximize();
-//        }
-//    }
-	
 	@AfterMethod
 	public void tearDownTest() {
 		try {
@@ -123,3 +91,4 @@ public class BaseTest {
 	
 	
 }
+

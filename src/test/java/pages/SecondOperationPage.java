@@ -13,6 +13,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import locators.SecondLocators;
+import utility.AssertionClass;
+
 public class SecondOperationPage extends BasePage {
 	
 	WebDriverWait wait ;
@@ -22,14 +25,14 @@ public class SecondOperationPage extends BasePage {
 	}
 	
 	public void Electronics() {
-		WebElement electronics_link=driver.findElement(By.xpath("//span[contains(text(),'Electronics')]"));
+		WebElement electronics_link=driver.findElement(By.xpath(SecondLocators.ELECTRONICS_LINK));
 		electronics_link.click();
-		driver.findElement(By.xpath("//a[contains(text(),'Wired Headphones')]")).click();
-		driver.findElement(By.xpath("//a[contains(text(),'Apple EarPods with Lightning Connector Wired Headset')]")).click();
+		driver.findElement(By.xpath(SecondLocators.SECTION)).click();
+		driver.findElement(By.xpath(SecondLocators.ITEM)).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("body")));
         String current_page_url=driver.getCurrentUrl();
-        String url="https://www.flipkart.com/";
-        Assert.assertNotEquals(current_page_url, url,"On the Home Page");
+        String url=base_url;
+        Assert.assertNotEquals(current_page_url, url,AssertionClass.HOME_ERROR_MESSAGE);
 	}
 	
 	
@@ -49,8 +52,8 @@ public class SecondOperationPage extends BasePage {
             }
         }
         String current_page=driver.getTitle();
-	    String expected_page="Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com";
-	    Assert.assertEquals(current_page, expected_page,"Not on the Product page");
+	    String expected_page=AssertionClass.HOMETITLE;
+	    Assert.assertEquals(current_page, expected_page,AssertionClass.PRODUCT_ERROR_MESSAGE);
         	
         	
     }
@@ -59,35 +62,36 @@ public class SecondOperationPage extends BasePage {
 	public void Careers() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		driver.findElement(By.xpath("//a[contains(text(),'Careers')]")).click();
-		driver.findElement(By.xpath("//a[contains(text(),'Life At Flipkart')]")).click();
-		driver.findElement(By.xpath("//a[@id='candidate-login-before' and contains(text(),'Candidate Login')]")).click();
+		driver.findElement(By.xpath(SecondLocators.CAREER_LINK)).click();
+		driver.findElement(By.xpath(SecondLocators.FLIPKART_LINK)).click();
+		driver.findElement(By.xpath(SecondLocators.CANDIDATE_LOGIN)).click();
 		String current_url=driver.getCurrentUrl();
-		String url="https://www.flipkart.com/";
+		String url=base_url;
 		Assert.assertNotEquals(current_url,url,"On the HomePage");
-		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("kartikeysharma992@gmail.com");
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("12344");
-		driver.findElement(By.id("loginbtn")).click();
+		driver.findElement(By.xpath(SecondLocators.USER_INPUT)).sendKeys("kartikeysharma992@gmail.com");
+		driver.findElement(By.xpath(SecondLocators.USER_PASSWORD)).sendKeys("12344");
+		driver.findElement(By.id(SecondLocators.USER_LOGIN)).click();
 	}
 
 
 	//Here we are performing the login opeartion
 	//Since this functionality requires an OTP, so testing will throw assertion fail
 	public void Login() {
-		driver.findElement(By.xpath("//a[@title='Login' and @class='_1TOQfO']")).click();
-		WebElement email_box=driver.findElement(By.xpath("//input[@class='r4vIwl BV+Dqf']"));
+		driver.findElement(By.xpath(SecondLocators.LOGIN_BUTTON)).click();
+		WebElement email_box=driver.findElement(By.xpath(SecondLocators.EMAIL_LOGIN));
 		wait.until(ExpectedConditions.elementToBeClickable(email_box));
 		email_box.sendKeys("9919520904");
-		Assert.fail("Login operation failed");
+		Assert.fail(AssertionClass.LOGIN_SIGNUP_ERROR_FAILED);
 	}
 	
 	//here we are checking the signing testing
 	public void Signup() {
-		driver.findElement(By.xpath("//a[@title='Login' and @class='_1TOQfO']")).click();
-		driver.findElement(By.xpath("//a[contains(text(),'New to Flipkart? Create an account')]")).click();
-		driver.findElement(By.xpath("//input[@class='r4vIwl BV+Dqf']")).sendKeys("9918520901");
+		driver.findElement(By.xpath(SecondLocators.LOGIN_BUTTON)).click();
+		driver.findElement(By.xpath(SecondLocators.CREATE_ACCOUNT)).click();
+		driver.findElement(By.xpath(SecondLocators.EMAIL_LOGIN)).sendKeys("9918520901");
 		String current_url=driver.getCurrentUrl();
-		Assert.assertEquals(current_url, "https://www.flipkart.com/","Login operation not performed successfully");
+		String url=base_url;
+		Assert.assertEquals(current_url, url,AssertionClass.LOGIN_SIGNUP_ERROR_FAILED);
 		
 	}
 
@@ -95,7 +99,7 @@ public class SecondOperationPage extends BasePage {
 	public void Shopsy() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		driver.findElement(By.xpath("//a[contains(text(),'Shopsy')]")).click();
+		driver.findElement(By.xpath(SecondLocators.SHOPSY_LINK)).click();
 		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
         if(tabs.size()>1) {
         	driver.switchTo().window(tabs.get(1));
@@ -104,10 +108,10 @@ public class SecondOperationPage extends BasePage {
             searchBox.sendKeys("T-Shirt");
             searchBox.submit();
             String current_title=driver.getTitle();
-            String expected_title="Shop Online for Mens & Womens Fashion, Beauty, Home, & More | Shopsy";
-            Assert.assertEquals(current_title, expected_title,"Not on the Shopsy site");
+            String expected_title=AssertionClass.SHOPSYTITLE;
+            Assert.assertEquals(current_title, expected_title,AssertionClass.PAGE_ERROR_MESSAGE);
         }else {
-        	Assert.fail("New Tab not opened");
+        	Assert.fail(AssertionClass.TAB_ERROR_MESSAGE);
         }
 	}
 
@@ -115,12 +119,11 @@ public class SecondOperationPage extends BasePage {
 	public void Corporate() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		driver.findElement(By.xpath("//a[contains(text(),'About Us')]")).click();
+		driver.findElement(By.xpath(SecondLocators.ABOUTUS)).click();
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		driver.findElement(By.xpath("//a[contains(text(),'Flipkart Group')]")).click();
-		driver.findElement(By.xpath("//a[@href='https://www.anscommerce.com/']")).click();
+		driver.findElement(By.xpath(SecondLocators.FLIPKART_GROUP)).click();
 		String current_title=driver.getTitle();
-		String expected_title="Flipkart Corporate Website";
-		Assert.assertEquals(current_title, expected_title,"Not on Corporate Site");
+		String expected_title=AssertionClass.CORPORATETITLE;
+		Assert.assertEquals(current_title, expected_title,AssertionClass.PAGE_ERROR_MESSAGE);
 	}
 }
