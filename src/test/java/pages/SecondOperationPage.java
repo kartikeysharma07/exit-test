@@ -59,7 +59,7 @@ public class SecondOperationPage extends BasePage {
     }
 	
 	
-	public void Careers() {
+	public void Careers(String email,String password) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		driver.findElement(By.xpath(SecondLocators.CAREER_LINK)).click();
@@ -67,28 +67,30 @@ public class SecondOperationPage extends BasePage {
 		driver.findElement(By.xpath(SecondLocators.CANDIDATE_LOGIN)).click();
 		String current_url=driver.getCurrentUrl();
 		String url=base_url;
+		System.out.println(email);
+		System.out.println(password);
 		Assert.assertNotEquals(current_url,url,"On the HomePage");
-		driver.findElement(By.xpath(SecondLocators.USER_INPUT)).sendKeys("kartikeysharma992@gmail.com");
-		driver.findElement(By.xpath(SecondLocators.USER_PASSWORD)).sendKeys("12344");
+		driver.findElement(By.xpath(SecondLocators.USER_INPUT)).sendKeys(email);
+		driver.findElement(By.xpath(SecondLocators.USER_PASSWORD)).sendKeys(password);
 		driver.findElement(By.id(SecondLocators.USER_LOGIN)).click();
 	}
 
 
 	//Here we are performing the login opeartion
 	//Since this functionality requires an OTP, so testing will throw assertion fail
-	public void Login() {
+	public void Login(String mobile) {
 		driver.findElement(By.xpath(SecondLocators.LOGIN_BUTTON)).click();
 		WebElement email_box=driver.findElement(By.xpath(SecondLocators.EMAIL_LOGIN));
 		wait.until(ExpectedConditions.elementToBeClickable(email_box));
-		email_box.sendKeys("9919520904");
+		email_box.sendKeys(mobile);
 		Assert.fail(AssertionClass.LOGIN_SIGNUP_ERROR_FAILED);
 	}
 	
 	//here we are checking the signing testing
-	public void Signup() {
+	public void Signup(String mobile) {
 		driver.findElement(By.xpath(SecondLocators.LOGIN_BUTTON)).click();
 		driver.findElement(By.xpath(SecondLocators.CREATE_ACCOUNT)).click();
-		driver.findElement(By.xpath(SecondLocators.EMAIL_LOGIN)).sendKeys("9918520901");
+		driver.findElement(By.xpath(SecondLocators.EMAIL_LOGIN)).sendKeys(mobile);
 		String current_url=driver.getCurrentUrl();
 		String url=base_url;
 		Assert.assertEquals(current_url, url,AssertionClass.LOGIN_SIGNUP_ERROR_FAILED);

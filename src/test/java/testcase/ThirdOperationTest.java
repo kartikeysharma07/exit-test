@@ -2,17 +2,18 @@ package testcase;
 
 import org.testng.annotations.Test;
 import pages.ThirdOperationPage;
+import utility.DataProviderUtil;
 
 public class ThirdOperationTest extends BaseTest {
 	
 	ThirdOperationPage repo;
 	
-	@Test(groups={"regression"},priority=1)
-	public void Advertise() {
+	@Test(groups={"regression"},priority=1,dataProvider="detail",dataProviderClass=DataProviderUtil.class)
+	public void Advertise(String name,String email, String mobile, String password) {
 		if(testExecutionInfo.containsKey("Advertise")) {
 			logger.info("Testing the Advertising  operation");
 			repo=new ThirdOperationPage(driver);
-			repo.Advertise();
+			repo.Advertise(name,email,mobile,password);
 			logger.info("Testing of Advertising operation done");
 		}
 		else {
@@ -47,12 +48,12 @@ public class ThirdOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"regression"},priority=4)
-	public void GiftCardPersonal() {
+	@Test(groups={"regression"},priority=4,dataProvider="detail",dataProviderClass=DataProviderUtil.class)
+	public void GiftCardPersonal(String name,String email, String mobile, String password) {
 		if(testExecutionInfo.containsKey("GiftCardPersonal")) {
 			logger.info("Testing the Gift Card Failure  operation");
 			repo=new ThirdOperationPage(driver);
-			repo.GiftCardPersonalrequirements();
+			repo.GiftCardPersonalrequirements(name,email,mobile,password);
 			logger.info("Testing of Gift Card Failure operation done");
 		}
 		else {
@@ -60,12 +61,12 @@ public class ThirdOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"regression"},priority=5)
-	public void Cart() {
+	@Test(groups={"regression"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	public void Cart(String mobile) {
 		if(testExecutionInfo.containsKey("Cart")) {
 			logger.info("Testing the Checking  operation");
 			repo=new ThirdOperationPage(driver);
-			repo.Checking_Cart();
+			repo.Checking_Cart(mobile);
 			logger.info("Testing of Checking operation done");
 		}
 		else {

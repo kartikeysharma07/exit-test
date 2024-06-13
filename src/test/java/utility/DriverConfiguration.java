@@ -6,8 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class DriverConfiguration {
 	
 	public WebDriver driver;
@@ -23,11 +21,11 @@ public class DriverConfiguration {
 			if(headlessProp) {
 				ChromeOptions opt=new ChromeOptions();
 				opt.addArguments("--headless=new");
-				WebDriverManager.chromedriver().setup();
+//				WebDriverManager.chromedriver().setup();
 				driver=new ChromeDriver(opt);
 			}
 			else {
-				WebDriverManager.chromedriver().setup();
+//				WebDriverManager.chromedriver().setup();
 				driver=new ChromeDriver();
 			}
 			
@@ -35,11 +33,11 @@ public class DriverConfiguration {
 			if(headlessProp) {
 				EdgeOptions opt=new EdgeOptions();
 				opt.addArguments("--headless=new");
-				WebDriverManager.edgedriver().setup();
+//				WebDriverManager.edgedriver().setup();
 				driver= new EdgeDriver(opt);
 			}
 			else {
-				WebDriverManager.edgedriver().setup();
+//				WebDriverManager.edgedriver().setup();
 				driver= new EdgeDriver();
 			}
 		}

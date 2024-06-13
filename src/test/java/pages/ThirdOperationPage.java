@@ -23,15 +23,15 @@ public class ThirdOperationPage extends BasePage {
 	}
 	
 	
-	public void Advertise() {
+	public void Advertise(String name,String email, String mobile, String password) {
 		driver.findElement(By.xpath(ThirdLocators.DROPDOWN)).click();
 		driver.findElement(By.xpath(ThirdLocators.ADVERTISE)).click();
 		driver.findElement(By.xpath(ThirdLocators.REGISTER)).click();
-		driver.findElement(By.xpath(ThirdLocators.NAME_BOX)).sendKeys("Kartikey Sharma");
-		driver.findElement(By.xpath(ThirdLocators.MOBILE_BOX)).sendKeys("9919111111");
-		driver.findElement(By.xpath(ThirdLocators.EMAIL_BOX)).sendKeys("hello@gmail.com");
-		driver.findElement(By.xpath(ThirdLocators.PASSOWORD)).sendKeys("Admin@123");
-		driver.findElement(By.xpath(ThirdLocators.CONFIRM_PASSWORD)).sendKeys("Admin@123");
+		driver.findElement(By.xpath(ThirdLocators.NAME_BOX)).sendKeys(name);
+		driver.findElement(By.xpath(ThirdLocators.MOBILE_BOX)).sendKeys(mobile);
+		driver.findElement(By.xpath(ThirdLocators.EMAIL_BOX)).sendKeys(email);
+		driver.findElement(By.xpath(ThirdLocators.PASSOWORD)).sendKeys(password);
+		driver.findElement(By.xpath(ThirdLocators.CONFIRM_PASSWORD)).sendKeys(password);
 		driver.findElement(By.xpath(ThirdLocators.SUBMIT)).click();
 		String current_title=driver.getTitle();
 		String expected_title=AssertionClass.ADPAGETITLE;
@@ -61,13 +61,13 @@ public class ThirdOperationPage extends BasePage {
 	}
 	
 	//need to change
-	public void GiftCardPersonalrequirements() {
+	public void GiftCardPersonalrequirements(String name,String email, String mobile, String password) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		driver.findElement(By.xpath(ThirdLocators.GIFTCARDS)).click();
 		driver.findElement(By.xpath(ThirdLocators.SELECTPERSONALCARD)).click();
-		driver.findElement(By.xpath(ThirdLocators.RECEPIENT_EMAIL)).sendKeys("hello@gmail.com");
-		driver.findElement(By.xpath(ThirdLocators.RECPIENT_NAME)).sendKeys("Kartikey Sharma");
+		driver.findElement(By.xpath(ThirdLocators.RECEPIENT_EMAIL)).sendKeys(email);
+		driver.findElement(By.xpath(ThirdLocators.RECPIENT_NAME)).sendKeys(name);
 		WebElement dropdown = driver.findElement(By.name(ThirdLocators.VOUCHER_VALUE));
 	    Select select = new Select(dropdown);
 	    select.selectByVisibleText("500");
@@ -77,12 +77,12 @@ public class ThirdOperationPage extends BasePage {
 	    Assert.assertEquals(actual_title,expected_title,AssertionClass.PAYMENT_ERROR_MESSAGE);
 	}
 	
-	public void Checking_Cart() {
+	public void Checking_Cart(String mobile) {
 		driver.findElement(By.xpath(ThirdLocators.CART)).click();
 		driver.findElement(By.xpath(ThirdLocators.CART_SUBMIT)).click();
 		WebElement email_box=driver.findElement(By.xpath(ThirdLocators.EMAIL_CART));
 		wait.until(ExpectedConditions.elementToBeClickable(email_box));
-		email_box.sendKeys("9919520904");
+		email_box.sendKeys(mobile);
 		String current_title=driver.getTitle();
 		String expected_title=AssertionClass.CARTTITLE;
 		Assert.assertEquals(current_title, expected_title,AssertionClass.LOGIN_SIGNUP_ERROR_FAILED);

@@ -578,3 +578,37 @@
 [INFO ] 2024-06-13 01:08:48.685 [main] ExitTest - Grocery testing is completed
 [INFO ] 2024-06-13 01:08:49.645 [main] ExitTest - quitting the driver
 [INFO ] 2024-06-13 01:08:49.645 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 10:19:20.454 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 10:19:22.901 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 10:19:23.076 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-13 10:19:27.053 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-13 10:19:28.483 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 10:19:28.496 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:04:40.152 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:04:42.658 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:04:42.815 [main] ExitTest - Checking footer Careers section
+[INFO ] 2024-06-13 11:04:50.454 [main] ExitTest - Careers section testing done
+[INFO ] 2024-06-13 11:04:52.079 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:04:52.095 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:09:49.692 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:09:51.795 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:09:52.010 [main] ExitTest - Testing the login operation
+[INFO ] 2024-06-13 11:09:56.532 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:09:56.542 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:11:01.223 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:11:03.091 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:11:03.183 [main] ExitTest - Testing the signup operation
+[INFO ] 2024-06-13 11:11:07.371 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:11:07.378 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:17:39.576 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:17:41.587 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:17:41.772 [main] ExitTest - Testing the Advertising  operation
+[INFO ] 2024-06-13 11:17:44.839 [main] ExitTest - Testing of Advertising operation done
+[INFO ] 2024-06-13 11:17:46.268 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:17:46.268 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:21:36.447 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:21:38.299 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:21:38.454 [main] ExitTest - Testing the Gift Card Failure  operation
+[INFO ] 2024-06-13 11:21:44.641 [main] ExitTest - Testing of Gift Card Failure operation done
+[INFO ] 2024-06-13 11:21:46.030 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:21:46.030 [main] ExitTest - quitting the driver

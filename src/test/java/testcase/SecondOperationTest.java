@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import pages.FirstOpeartionPage;
 import pages.SecondOperationPage;
+import utility.DataProviderUtil;
 
 public class SecondOperationTest extends BaseTest {
 	
@@ -34,24 +35,24 @@ public class SecondOperationTest extends BaseTest {
 			logger.error("Rewards is not activated");
 		}
 	}
-	@Test(groups={"regression"},priority=3)
-	public void Careers() {
+	@Test(groups={"regression"},priority=3,dataProvider="credentials", dataProviderClass=DataProviderUtil.class)
+	public void Careers(String email,String password) {
 		if(testExecutionInfo.containsKey("Careers")) {
 			logger.info("Checking footer Careers section");
 			repo=new SecondOperationPage(driver);
-			repo.Careers();
+			repo.Careers(email,password);
 			logger.info("Careers section testing done");
 		}
 		else {
 			logger.error("Careers is not activated");
 		}
 	}
-	@Test(groups={"regression"},priority=4)
-	public void Login() {
+	@Test(groups={"regression"},priority=4,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	public void Login(String mobile) {
 		if(testExecutionInfo.containsKey("Login")) {
 			logger.info("Testing the login operation");
 			repo=new SecondOperationPage(driver);
-			repo.Login();
+			repo.Login(mobile);
 			logger.info("Testing of login operation done");
 		}
 		else {
@@ -59,12 +60,12 @@ public class SecondOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke"},priority=5)
-	public void Signup() {
+	@Test(groups={"smoke"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	public void Signup(String mobile) {
 		if(testExecutionInfo.containsKey("Signup")) {
 			logger.info("Testing the signup operation");
 			repo=new SecondOperationPage(driver);
-			repo.Signup();
+			repo.Signup(mobile);
 			logger.info("Testing of signup operation done");
 		}
 		else {

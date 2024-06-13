@@ -8,7 +8,7 @@
           <include name="setUp_Configurations"/>
           <include name="tearDownClass"/>
           <include name="setup"/>
-          <include name="Travel"/>
+          <include name="GiftCardPersonal"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- testcase.ThirdOperationTest -->

@@ -12,6 +12,7 @@ import org.testng.Assert;
 
 import locators.FirstLocators;
 import utility.AssertionClass;
+import utility.ReadExcelData;
 
 
 
@@ -58,6 +59,17 @@ public class FirstOpeartionPage extends BasePage {
 		WebElement add_item=driver.findElement(By.xpath(FirstLocators.ADD_ITEM));
 		wait.until(ExpectedConditions.elementToBeClickable(add_item));
 		add_item.click();
+		
+		Object[][] fashionData = ReadExcelData.getData("Details");
+		System.out.println(fashionData);
+        
+        // Now you can use the fashionData variable
+        for (Object[] row : fashionData) {
+            for (Object cell : row) {
+                System.out.print(cell + " ");
+            }
+            System.out.println();
+        }
 		String current_url=driver.getCurrentUrl();
 		String url=base_url;
 		Assert.assertNotEquals(current_url, url,AssertionClass.ORDER_ERROR_MESSAGE);
