@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods, 6 failed,   14 passed</span>
+                    <span class="method-stats">20 methods, 8 failed,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase.SecondOperationTest" class="method navigator-link" hash-for-method="Careers(hello@gmail.com, Hello@123)">Careers(hello@gmail.com, Hello@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.SecondOperationTest" class="method navigator-link" hash-for-method="Electronics">Electronics</a> <!-- method navigator-link -->
@@ -128,6 +133,11 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase.FirstOpeartionTest" class="method navigator-link" hash-for-method="search(phones, samsung)">search(phones, samsung)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.FirstOpeartionTest" class="method navigator-link" hash-for-method="twowheeler">twowheeler</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -143,11 +153,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.ThirdOperationTest" class="method navigator-link" hash-for-method="Advertise(kartikey sharma, hello@gmail.com, 9990123515, Hello@123)">Advertise(kartikey sharma, hello@gmail.com, 9990123515, Hello@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcase.SecondOperationTest" class="method navigator-link" hash-for-method="Careers(hello@gmail.com, Hello@123)">Careers(hello@gmail.com, Hello@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -202,11 +207,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcase.FirstOpeartionTest" class="method navigator-link" hash-for-method="search(phones, samsung)">search(phones, samsung)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.FirstOpeartionTest" class="method navigator-link" hash-for-method="specficProduct">specficProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -230,6 +230,38 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="Careers(hello@gmail.com, Hello@123)">
+                  </a> <!-- Careers(hello@gmail.com, Hello@123) -->
+                  <span class="method-name">Careers</span>
+                  <span class="parameters">(hello@gmail.com,Hello@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b3f729120b05db9e4e1daa5bca00195, clickElement {id=f.7AF6CBE6EF9E65D84B85334A09B6EB92.d.4F1D16310786D96290D2D436D20B3DB0.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59958/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9b3f729120b05db9e4e1daa5bca00195)] -&gt; xpath: //a[@id=&apos;candidate-login-before&apos; and contains(text(),&apos;Candidate Login&apos;)]]
+Session ID: 9b3f729120b05db9e4e1daa5bca00195
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.SecondOperationPage.Careers(SecondOperationPage.java:74)
+	at testcase.SecondOperationTest.Careers(SecondOperationTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="Electronics">
                   </a> <!-- Electronics -->
                   <span class="method-name">Electronics</span>
@@ -239,9 +271,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8bd1e51df96905bb47ceb508223d1356, findElement {using=xpath, value=//a[contains(text(),&apos;Wired Headphones&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59677/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8bd1e51df96905bb47ceb508223d1356
+Command: [211fb71435cecaa09c2f214ce9263d0f, findElement {value=//a[contains(text(),&apos;Wired Headphones&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59868/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 211fb71435cecaa09c2f214ce9263d0f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -253,8 +285,8 @@ Session ID: 8bd1e51df96905bb47ceb508223d1356
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at pages.SecondOperationPage.Electronics(SecondOperationPage.java:30)
-	at testcase.SecondOperationTest.Electronics(SecondOperationTest.java:18)
+	at pages.SecondOperationPage.Electronics(SecondOperationPage.java:32)
+	at testcase.SecondOperationTest.Electronics(SecondOperationTest.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -266,11 +298,11 @@ Session ID: 8bd1e51df96905bb47ceb508223d1356
                   </a> <!-- Login(9990123515) -->
                   <span class="method-name">Login</span>
                   <span class="parameters">(9990123515)</span>
-                  <div class="stack-trace">java.lang.AssertionError: Login/Signup operation failed
-	at pages.SecondOperationPage.Login(SecondOperationPage.java:86)
-	at testcase.SecondOperationTest.Login(SecondOperationTest.java:55)
+                  <div class="stack-trace">java.lang.AssertionError: Login/Signup operation failed expected [https://www.flipkart.com/] but found [https://www.flipkart.com/account/login?ret=/]
+	at pages.SecondOperationPage.Login(SecondOperationPage.java:95)
+	at testcase.SecondOperationTest.Login(SecondOperationTest.java:59)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -281,8 +313,8 @@ Session ID: 8bd1e51df96905bb47ceb508223d1356
                   <span class="method-name">Signup</span>
                   <span class="parameters">(9990123515)</span>
                   <div class="stack-trace">java.lang.AssertionError: Login/Signup operation failed expected [https://www.flipkart.com/] but found [https://www.flipkart.com/account/login?signup=true]
-	at pages.SecondOperationPage.Signup(SecondOperationPage.java:96)
-	at testcase.SecondOperationTest.Signup(SecondOperationTest.java:68)
+	at pages.SecondOperationPage.Signup(SecondOperationPage.java:105)
+	at testcase.SecondOperationTest.Signup(SecondOperationTest.java:73)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -307,9 +339,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9ff7b541ab0a831c88f20fe78fc4830, findElement {using=xpath, value=//span[contains(text(),&apos;Home &amp; Furniture&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60185/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e9ff7b541ab0a831c88f20fe78fc4830
+Command: [a3194d04bdad7871ea7417f8c4327291, findElement {value=//span[contains(text(),&apos;Home &amp; Furniture&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60301/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3194d04bdad7871ea7417f8c4327291
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -321,8 +353,8 @@ Session ID: e9ff7b541ab0a831c88f20fe78fc4830
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at pages.ThirdOperationPage.Furniture(ThirdOperationPage.java:43)
-	at testcase.ThirdOperationTest.Furniture(ThirdOperationTest.java:29)
+	at pages.ThirdOperationPage.Furniture(ThirdOperationPage.java:44)
+	at testcase.ThirdOperationTest.Furniture(ThirdOperationTest.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -348,9 +380,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [49b4a05837523b77b0b8b8f33bfd3292, findElement {using=xpath, value=//a[contains(text(), &quot;Men&apos;s Top Wear&quot;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59496}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59496/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49b4a05837523b77b0b8b8f33bfd3292
+Command: [f4972221ebb0a77217676da081626fce, findElement {value=//a[contains(text(), &quot;Men&apos;s Top Wear&quot;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59720/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4972221ebb0a77217676da081626fce
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -362,10 +394,23 @@ Session ID: 49b4a05837523b77b0b8b8f33bfd3292
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at pages.FirstOpeartionPage.Fashion(FirstOpeartionPage.java:119)
-	at testcase.FirstOpeartionTest.fashion(FirstOpeartionTest.java:73)
+	at pages.FirstOpeartionPage.Fashion(FirstOpeartionPage.java:125)
+	at testcase.FirstOpeartionTest.fashion(FirstOpeartionTest.java:77)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search(phones, samsung)">
+                  </a> <!-- search(phones, samsung) -->
+                  <span class="method-name">search</span>
+                  <span class="parameters">(phones,samsung)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Searching is not activated
+	at testcase.FirstOpeartionTest.search(FirstOpeartionTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -380,9 +425,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c856cfeb782f8f14a17e3a621a16faa0, findElement {using=xpath, value=//span[contains(text(),&apos;Two Wheelers&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59622}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59622/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c856cfeb782f8f14a17e3a621a16faa0
+Command: [2fd84e40ec0290f060ef9a86051e5d9e, findElement {value=//span[contains(text(),&apos;Two Wheelers&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fd84e40ec0290f060ef9a86051e5d9e
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -394,8 +439,8 @@ Session ID: c856cfeb782f8f14a17e3a621a16faa0
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at pages.FirstOpeartionPage.TwoWheeler(FirstOpeartionPage.java:146)
-	at testcase.FirstOpeartionTest.twowheeler(FirstOpeartionTest.java:99)
+	at pages.FirstOpeartionPage.TwoWheeler(FirstOpeartionPage.java:155)
+	at testcase.FirstOpeartionTest.twowheeler(FirstOpeartionTest.java:105)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -409,14 +454,6 @@ Session ID: c856cfeb782f8f14a17e3a621a16faa0
               <span class="class-name">testcase.SecondOperationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Careers(hello@gmail.com, Hello@123)">
-                  </a> <!-- Careers(hello@gmail.com, Hello@123) -->
-                  <span class="method-name">Careers</span>
-                  <span class="parameters">(hello@gmail.com,Hello@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="CorporateWebsite">
@@ -517,14 +554,6 @@ Session ID: c856cfeb782f8f14a17e3a621a16faa0
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="search(phones, samsung)">
-                  </a> <!-- search(phones, samsung) -->
-                  <span class="method-name">search</span>
-                  <span class="parameters">(phones,samsung)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="specficProduct">
                   </a> <!-- specficProduct -->
                   <span class="method-name">specficProduct</span>
@@ -542,9 +571,6 @@ Session ID: c856cfeb782f8f14a17e3a621a16faa0
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;utility.ExtentReportClass&quot;/&gt;
-  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcase.FirstOpeartionTest&quot;/&gt;
@@ -709,83 +735,83 @@ data.addRows(20);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'fashion')
 data.setCell(0, 2, 'testcase.FirstOpeartionTest')
-data.setCell(0, 3, 11856);
+data.setCell(0, 3, 11647);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Electronics')
 data.setCell(1, 2, 'testcase.SecondOperationTest')
-data.setCell(1, 3, 11317);
+data.setCell(1, 3, 11454);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'becomeSeller')
-data.setCell(2, 2, 'testcase.FirstOpeartionTest')
-data.setCell(2, 3, 10457);
+data.setCell(2, 1, 'Furniture')
+data.setCell(2, 2, 'testcase.ThirdOperationTest')
+data.setCell(2, 3, 10054);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Furniture')
-data.setCell(3, 2, 'testcase.ThirdOperationTest')
-data.setCell(3, 3, 10075);
+data.setCell(3, 1, 'twowheeler')
+data.setCell(3, 2, 'testcase.FirstOpeartionTest')
+data.setCell(3, 3, 10030);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'twowheeler')
+data.setCell(4, 1, 'specficProduct')
 data.setCell(4, 2, 'testcase.FirstOpeartionTest')
-data.setCell(4, 3, 10068);
+data.setCell(4, 3, 8488);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'specficProduct')
+data.setCell(5, 1, 'becomeSeller')
 data.setCell(5, 2, 'testcase.FirstOpeartionTest')
-data.setCell(5, 3, 9123);
+data.setCell(5, 3, 7246);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'GiftCardPersonal')
 data.setCell(6, 2, 'testcase.ThirdOperationTest')
-data.setCell(6, 3, 6036);
+data.setCell(6, 3, 6677);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Careers')
-data.setCell(7, 2, 'testcase.SecondOperationTest')
-data.setCell(7, 3, 5409);
+data.setCell(7, 1, 'grocery')
+data.setCell(7, 2, 'testcase.FirstOpeartionTest')
+data.setCell(7, 3, 4404);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'grocery')
-data.setCell(8, 2, 'testcase.FirstOpeartionTest')
-data.setCell(8, 3, 5112);
+data.setCell(8, 1, 'Careers')
+data.setCell(8, 2, 'testcase.SecondOperationTest')
+data.setCell(8, 3, 2757);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'GiftCard')
-data.setCell(9, 2, 'testcase.ThirdOperationTest')
-data.setCell(9, 3, 3631);
+data.setCell(9, 1, 'Shopsy')
+data.setCell(9, 2, 'testcase.SecondOperationTest')
+data.setCell(9, 3, 2710);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Signup')
+data.setCell(10, 1, 'Rewards')
 data.setCell(10, 2, 'testcase.SecondOperationTest')
-data.setCell(10, 3, 3052);
+data.setCell(10, 3, 2679);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Shopsy')
-data.setCell(11, 2, 'testcase.SecondOperationTest')
-data.setCell(11, 3, 3018);
+data.setCell(11, 1, 'Advertise')
+data.setCell(11, 2, 'testcase.ThirdOperationTest')
+data.setCell(11, 3, 2651);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Advertise')
-data.setCell(12, 2, 'testcase.ThirdOperationTest')
-data.setCell(12, 3, 2990);
+data.setCell(12, 1, 'Login')
+data.setCell(12, 2, 'testcase.SecondOperationTest')
+data.setCell(12, 3, 2632);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'notification')
-data.setCell(13, 2, 'testcase.FirstOpeartionTest')
-data.setCell(13, 3, 2223);
+data.setCell(13, 1, 'Signup')
+data.setCell(13, 2, 'testcase.SecondOperationTest')
+data.setCell(13, 3, 2544);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'Cart')
+data.setCell(14, 1, 'GiftCard')
 data.setCell(14, 2, 'testcase.ThirdOperationTest')
-data.setCell(14, 3, 1889);
+data.setCell(14, 3, 2494);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'CorporateWebsite')
 data.setCell(15, 2, 'testcase.SecondOperationTest')
-data.setCell(15, 3, 1831);
+data.setCell(15, 3, 1910);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'Travel')
-data.setCell(16, 2, 'testcase.ThirdOperationTest')
-data.setCell(16, 3, 1784);
+data.setCell(16, 1, 'notification')
+data.setCell(16, 2, 'testcase.FirstOpeartionTest')
+data.setCell(16, 3, 1742);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'Rewards')
-data.setCell(17, 2, 'testcase.SecondOperationTest')
-data.setCell(17, 3, 1738);
+data.setCell(17, 1, 'Travel')
+data.setCell(17, 2, 'testcase.ThirdOperationTest')
+data.setCell(17, 3, 1565);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'Login')
-data.setCell(18, 2, 'testcase.SecondOperationTest')
-data.setCell(18, 3, 1312);
+data.setCell(18, 1, 'Cart')
+data.setCell(18, 2, 'testcase.ThirdOperationTest')
+data.setCell(18, 3, 1539);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'search')
 data.setCell(19, 2, 'testcase.FirstOpeartionTest')
-data.setCell(19, 3, 7);
+data.setCell(19, 3, 12);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -823,287 +849,285 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.FirstOpeartionTest.search(java.lang.String,java.lang.String))</span>
-                <span class="method-start">1445 ms</span>
+                <span class="method-start">1690 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">search(phones, samsung)</span>
-                <span class="method-start">1525 ms</span>
+                <span class="method-start">1761 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">1547 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=search status=FAILURE method=FirstOpeartionTest.search(java.lang.String,java.lang.S...)</span>
+                <span class="method-start">1778 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.FirstOpeartionTest.grocery(java.lang.String,java.lang.String))</span>
-                <span class="method-start">1622 ms</span>
+                <span class="method-start">1861 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">grocery(208001, Lays American Style Cream and Onion Chips)</span>
-                <span class="method-start">7156 ms</span>
+                <span class="method-start">6886 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">12276 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=grocery status=SUCCESS method=FirstOpeartionTest.grocery(java.lang.String,java.lang...)</span>
+                <span class="method-start">11295 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.FirstOpeartionTest.specficProduct())</span>
-                <span class="method-start">13032 ms</span>
+                <span class="method-start">12055 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">specficProduct</span>
-                <span class="method-start">17628 ms</span>
+                <span class="method-start">16623 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">26755 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=specficProduct status=SUCCESS method=FirstOpeartionTest.specficProduct()[pri:3, ins...)</span>
+                <span class="method-start">25114 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.FirstOpeartionTest.becomeSeller(java.lang.String,java.lang.String))</span>
-                <span class="method-start">27739 ms</span>
+                <span class="method-start">25793 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">becomeSeller(9919520904, hello@gmail.com)</span>
-                <span class="method-start">32068 ms</span>
+                <span class="method-start">29953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">42525 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=becomeSeller status=SUCCESS method=FirstOpeartionTest.becomeSeller(java.lang.String...)</span>
+                <span class="method-start">37202 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.FirstOpeartionTest.fashion(java.lang.String,java.lang.String))</span>
-                <span class="method-start">44167 ms</span>
+                <span class="method-start">38095 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">fashion(Men's Top Wear, Men Regular Fit Solid Spread Collar Casual Shirt)</span>
-                <span class="method-start">48621 ms</span>
+                <span class="method-start">42161 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">63560 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=fashion status=FAILURE method=FirstOpeartionTest.fashion(java.lang.String,java.lang...)</span>
+                <span class="method-start">53810 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.FirstOpeartionTest.notification())</span>
-                <span class="method-start">66698 ms</span>
+                <span class="method-start">54827 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">notification</span>
-                <span class="method-start">71390 ms</span>
+                <span class="method-start">59079 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">73616 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=notification status=SUCCESS method=FirstOpeartionTest.notification()[pri:6, instanc...)</span>
+                <span class="method-start">60824 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.FirstOpeartionTest.twowheeler())</span>
-                <span class="method-start">74564 ms</span>
+                <span class="method-start">61585 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">twowheeler</span>
-                <span class="method-start">78887 ms</span>
+                <span class="method-start">65484 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">89192 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=twowheeler status=FAILURE method=FirstOpeartionTest.twowheeler()[pri:7, instance:te...)</span>
+                <span class="method-start">75514 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownExtentReports</span>
+                <span class="method-start">76624 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.SecondOperationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp_Configurations</span>
-                <span class="method-start">91826 ms</span>
+                <span class="method-start">77112 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.SecondOperationTest.Electronics())</span>
-                <span class="method-start">91826 ms</span>
+                <span class="method-start">77112 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcase.FirstOpeartionTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">91826 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcase.SecondOperationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Electronics</span>
-                <span class="method-start">96451 ms</span>
+                <span class="method-start">81254 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">107944 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Electronics status=FAILURE method=SecondOperationTest.Electronics()[pri:1, instance...)</span>
+                <span class="method-start">92708 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.SecondOperationTest.Rewards())</span>
-                <span class="method-start">110787 ms</span>
+                <span class="method-start">93646 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Rewards</span>
-                <span class="method-start">115148 ms</span>
+                <span class="method-start">98044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">116889 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Rewards status=SUCCESS method=SecondOperationTest.Rewards()[pri:2, instance:testcas...)</span>
+                <span class="method-start">100726 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.SecondOperationTest.Careers(java.lang.String,java.lang.String))</span>
-                <span class="method-start">117626 ms</span>
+                <span class="method-start">101592 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Careers(hello@gmail.com, Hello@123)</span>
-                <span class="method-start">122260 ms</span>
+                <span class="method-start">105562 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">127671 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Careers status=FAILURE method=SecondOperationTest.Careers(java.lang.String,java.lan...)</span>
+                <span class="method-start">108321 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.SecondOperationTest.Login(java.lang.String))</span>
-                <span class="method-start">128989 ms</span>
+                <span class="method-start">109765 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Login(9990123515)</span>
-                <span class="method-start">133855 ms</span>
+                <span class="method-start">113985 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">135301 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Login status=FAILURE method=SecondOperationTest.Login(java.lang.String)[pri:4, inst...)</span>
+                <span class="method-start">116619 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.SecondOperationTest.Signup(java.lang.String))</span>
-                <span class="method-start">135874 ms</span>
+                <span class="method-start">117483 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Signup(9990123515)</span>
-                <span class="method-start">140038 ms</span>
+                <span class="method-start">121477 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">143261 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Signup status=FAILURE method=SecondOperationTest.Signup(java.lang.String)[pri:5, in...)</span>
+                <span class="method-start">124022 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.SecondOperationTest.Shopsy())</span>
-                <span class="method-start">144280 ms</span>
+                <span class="method-start">124980 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Shopsy</span>
-                <span class="method-start">148796 ms</span>
+                <span class="method-start">129092 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">151817 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Shopsy status=SUCCESS method=SecondOperationTest.Shopsy()[pri:6, instance:testcase....)</span>
+                <span class="method-start">131804 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.SecondOperationTest.CorporateWebsite())</span>
-                <span class="method-start">152882 ms</span>
+                <span class="method-start">132586 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CorporateWebsite</span>
-                <span class="method-start">157328 ms</span>
+                <span class="method-start">136737 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">159162 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=CorporateWebsite status=SUCCESS method=SecondOperationTest.CorporateWebsite()[pri:7...)</span>
+                <span class="method-start">138649 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">160178 ms</span>
+                <span class="method-name">tearDownExtentReports</span>
+                <span class="method-start">139319 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.ThirdOperationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp_Configurations</span>
-                <span class="method-start">160179 ms</span>
+                <span class="method-start">139395 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.ThirdOperationTest.Advertise(java.lang.String,java.lang.String,java.lang.String...)</span>
-                <span class="method-start">160240 ms</span>
+                <span class="method-start">139428 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Advertise(kartikey sharma, hello@gmail.com, 9990123515, Hello@123)</span>
-                <span class="method-start">164746 ms</span>
+                <span class="method-start">143390 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">167739 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Advertise status=SUCCESS method=ThirdOperationTest.Advertise(java.lang.String,java....)</span>
+                <span class="method-start">146042 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.ThirdOperationTest.Furniture())</span>
-                <span class="method-start">168676 ms</span>
+                <span class="method-start">146836 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Furniture</span>
-                <span class="method-start">172839 ms</span>
+                <span class="method-start">150828 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">183125 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Furniture status=FAILURE method=ThirdOperationTest.Furniture()[pri:2, instance:test...)</span>
+                <span class="method-start">160884 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.ThirdOperationTest.GiftCard())</span>
-                <span class="method-start">184416 ms</span>
+                <span class="method-start">163379 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GiftCard</span>
-                <span class="method-start">188835 ms</span>
+                <span class="method-start">167673 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">192468 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=GiftCard status=SUCCESS method=ThirdOperationTest.GiftCard()[pri:3, instance:testca...)</span>
+                <span class="method-start">170168 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.ThirdOperationTest.GiftCardPersonal(java.lang.String,java.lang.String,java.lang...)</span>
-                <span class="method-start">193697 ms</span>
+                <span class="method-start">170891 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GiftCardPersonal(kartikey sharma, hello@gmail.com, 9990123515, Hello@123)</span>
-                <span class="method-start">198011 ms</span>
+                <span class="method-start">174879 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">204050 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=GiftCardPersonal status=SUCCESS method=ThirdOperationTest.GiftCardPersonal(java.lan...)</span>
+                <span class="method-start">181557 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.ThirdOperationTest.Cart(java.lang.String))</span>
-                <span class="method-start">205209 ms</span>
+                <span class="method-start">182083 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Cart(9990123515)</span>
-                <span class="method-start">209817 ms</span>
+                <span class="method-start">186339 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">211709 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Cart status=SUCCESS method=ThirdOperationTest.Cart(java.lang.String)[pri:5, instanc...)</span>
+                <span class="method-start">187879 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void testcase.ThirdOperationTest.Travel())</span>
-                <span class="method-start">212631 ms</span>
+                <span class="method-start">188609 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Travel</span>
-                <span class="method-start">216940 ms</span>
+                <span class="method-start">192643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">218725 ms</span>
+                <span class="method-name">tearDownTest([TestResult name=Travel status=SUCCESS method=ThirdOperationTest.Travel()[pri:6, instance:testcase.T...)</span>
+                <span class="method-start">194209 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">219762 ms</span>
+                <span class="method-name">tearDownExtentReports</span>
+                <span class="method-start">194723 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

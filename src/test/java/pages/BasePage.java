@@ -14,4 +14,5 @@ public class BasePage {
 	WebDriver driver;
 	public String base_url=ReadPropertyFile.getUrl();
 	public int wait_time=ReadPropertyFile.getWaitTime();
+	WebDriverWait wait ;
 }

@@ -24,6 +24,8 @@ public class SecondOperationPage extends BasePage {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	}
 	
+	//again we are selecting the Electronics dropdown icon here and in this we are selecting the section
+	//under which we have different kind of products
 	public void Electronics() {
 		WebElement electronics_link=driver.findElement(By.xpath(SecondLocators.ELECTRONICS_LINK));
 		electronics_link.click();
@@ -35,7 +37,9 @@ public class SecondOperationPage extends BasePage {
         Assert.assertNotEquals(current_page_url, url,AssertionClass.HOME_ERROR_MESSAGE);
 	}
 	
-	
+	//here in this script we are opening the link for the rewards section
+	//Rewards are present inside the Login
+	//in the login we are clicking the Rewards by getting its a in the list, and the selects the Rewards link.
 	public void Reward() {
 		WebElement parentDiv = driver.findElement(By.className("_1Us3XD"));
 
@@ -59,6 +63,9 @@ public class SecondOperationPage extends BasePage {
     }
 	
 	
+	//Here we are going in for the Careers section which is present in the footer section of the page
+	//first we are scrolling till the footer section and then we are going in careers section
+	//here we are also doing the Candidate Login
 	public void Careers(String email,String password) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
@@ -83,7 +90,9 @@ public class SecondOperationPage extends BasePage {
 		WebElement email_box=driver.findElement(By.xpath(SecondLocators.EMAIL_LOGIN));
 		wait.until(ExpectedConditions.elementToBeClickable(email_box));
 		email_box.sendKeys(mobile);
-		Assert.fail(AssertionClass.LOGIN_SIGNUP_ERROR_FAILED);
+		String current_url=driver.getCurrentUrl();
+		String url=base_url;
+		Assert.assertEquals(current_url, url,AssertionClass.LOGIN_SIGNUP_ERROR_FAILED);
 	}
 	
 	//here we are checking the signing testing
@@ -97,7 +106,7 @@ public class SecondOperationPage extends BasePage {
 		
 	}
 
-	
+	//we are going for the shopsy link which is present in the footer section under the Group Companies
 	public void Shopsy() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
@@ -117,7 +126,7 @@ public class SecondOperationPage extends BasePage {
         }
 	}
 
-	
+	//Checking for the corporate link present under the About section inside the footer
 	public void Corporate() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");

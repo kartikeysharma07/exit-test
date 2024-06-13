@@ -1,5 +1,6 @@
 package testcase;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.FirstOpeartionPage;
@@ -10,18 +11,19 @@ public class SecondOperationTest extends BaseTest {
 	
 	SecondOperationPage repo;
 	
-//	@Test(groups={"smoke"},priority=1)
-//	public void Electronics() {
-//		if(testExecutionInfo.containsKey("Electronics")) {
-//			logger.info("Electronics Testing is being performed");
-//			repo= new SecondOperationPage(driver);
-//			repo.Electronics();
-//			logger.info("Electronics testing is completed");
-//		}
-//		else {
-//			logger.error("Electronics is not activated");
-//		}
-//	}
+	@Test(groups={"smoke"},priority=1)
+	public void Electronics() {
+		if(testExecutionInfo.containsKey("Electronics")) {
+			logger.info("Electronics Testing is being performed");
+			repo= new SecondOperationPage(driver);
+			repo.Electronics();
+			logger.info("Electronics testing is completed");
+		}
+		else {
+			logger.error("Electronics is not activated");
+			Assert.fail("Electronics is not activated");
+		}
+	}
 	
 	@Test(groups={"smoke"},priority=2)
 	public void Rewards() {
@@ -33,6 +35,7 @@ public class SecondOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Rewards is not activated");
+			Assert.fail("Rewards is not activated");
 		}
 	}
 	@Test(groups={"regression"},priority=3,dataProvider="credentials", dataProviderClass=DataProviderUtil.class)
@@ -45,33 +48,35 @@ public class SecondOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Careers is not activated");
+			Assert.fail("Careers is not activated");
 		}
 	}
-//	@Test(groups={"regression"},priority=4,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
-//	public void Login(String mobile) {
-//		if(testExecutionInfo.containsKey("Login")) {
-//			logger.info("Testing the login operation");
-//			repo=new SecondOperationPage(driver);
-//			repo.Login(mobile);
-//			logger.info("Testing of login operation done");
-//		}
-//		else {
-//			logger.error("Login is not activated");
-//		}
-//	}
-	
-//	@Test(groups={"smoke"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
-//	public void Signup(String mobile) {
-//		if(testExecutionInfo.containsKey("Signup")) {
-//			logger.info("Testing the signup operation");
-//			repo=new SecondOperationPage(driver);
-//			repo.Signup(mobile);
-//			logger.info("Testing of signup operation done");
-//		}
-//		else {
-//			logger.error("Signup is not activated");
-//		}
-//	}
+	@Test(groups={"regression"},priority=4,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	public void Login(String mobile) {
+		if(testExecutionInfo.containsKey("Login")) {
+			logger.info("Testing the login operation");
+			repo=new SecondOperationPage(driver);
+			repo.Login(mobile);
+			logger.info("Testing of login operation done");
+		}
+		else {
+			logger.error("Login is not activated");
+			Assert.fail("Login is not activated");
+		}
+	}	
+	@Test(groups={"smoke"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	public void Signup(String mobile) {
+		if(testExecutionInfo.containsKey("Signup")) 
+		{
+			logger.info("Testing the signup operation");
+			repo=new SecondOperationPage(driver);			repo.Signup(mobile);
+			logger.info("Testing of signup operation done");
+		}
+		else {
+			logger.error("Signup is not activated");
+			Assert.fail("Signup is not activated");
+		}
+	}
 	
 	@Test(groups={"smoke"},priority=6)
 	public void Shopsy() {
@@ -83,6 +88,7 @@ public class SecondOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Shopsy is not activated");
+			Assert.fail("Shopsy is not activated");
 		}
 	}
 	
@@ -96,6 +102,7 @@ public class SecondOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Corporate Website is not activated");
+			Assert.fail("Corporate Website is not activated");
 		}
 	}
 }

@@ -22,6 +22,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 		else {
 			logger.error("Searching is not activated");
+			Assert.fail("Searching is not activated");
 		}
 	}	
 	
@@ -35,6 +36,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 		else {
 			logger.error("Grocery is not activated");
+			Assert.fail("Grocery is not activated");
 		}
 	}
 	
@@ -49,6 +51,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 		else {
 			logger.error("Specific Product is not activated");
+			Assert.fail("Specific Product is not activated");
 		}
 	}
 	
@@ -62,21 +65,23 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 		else {
 			logger.error("Become seller is not activated");
+			Assert.fail("Become seller is not activated");
 		}
 	}
 	
-//	@Test(dataProvider="fashiondata",dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=5)
-//	public void fashion(String section,String product) {
-//		if(testExecutionInfo.containsKey("fashion")) {
-//			logger.info("Performing the Fashion testing");
-//			repo=new FirstOpeartionPage(driver);
-//			repo.Fashion(section,product);
-//			logger.info("Fashion testing done");
-//		}
-//		else {
-//			logger.error("Fashion is not activated");
-//		}
-//	}
+	@Test(dataProvider="fashiondata",dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=5)
+	public void fashion(String section,String product) {
+		if(testExecutionInfo.containsKey("fashion")) {
+			logger.info("Performing the Fashion testing");
+			repo=new FirstOpeartionPage(driver);
+			repo.Fashion(section,product);
+			logger.info("Fashion testing done");
+		}
+		else {
+			logger.error("Fashion is not activated");
+			Assert.fail("Fashion is not activated");
+		}
+	}
 	
 	@Test(groups={"smoke", "regression"},priority=6)
 	public void notification() {
@@ -88,19 +93,21 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 		else {
 			logger.error("Notification is not activated");
+			Assert.fail("Notification is not activated");
 		}
 	}
 	
-//	@Test(groups={"smoke", "regression"},priority=7)
-//	public void twowheeler() {
-//		if(testExecutionInfo.containsKey("twowheeler")) {
-//			logger.info("Checking the Two Wheeler opeartion");
-//			repo=new FirstOpeartionPage(driver);
-//			repo.TwoWheeler();
-//			logger.info("Two Wheeler opeartion checking done");
-//		}
-//		else {
-//			logger.error("Two Wheeler is not activated");
-//		}
-//	}
+	@Test(groups={"smoke", "regression"},priority=7)
+	public void twowheeler() {
+		if(testExecutionInfo.containsKey("twowheeler")) {
+			logger.info("Checking the Two Wheeler opeartion");
+			repo=new FirstOpeartionPage(driver);
+			repo.TwoWheeler();
+			logger.info("Two Wheeler opeartion checking done");
+		}
+		else {
+			logger.error("Two Wheeler is not activated");
+			Assert.fail("Two Wheeler is not activated");
+		}
+	}
 }

@@ -1,5 +1,6 @@
 package testcase;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.ThirdOperationPage;
 import utility.DataProviderUtil;
@@ -18,22 +19,24 @@ public class ThirdOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Advertise is not activated");
+			Assert.fail("Advertise is not activated");
 		}
 	}
 	
-//	@Test(groups={"regression"},priority=2)
-//	public void Furniture() {
-//		if(testExecutionInfo.containsKey("Furniture")) {
-//			logger.info("Testing the Furniture  operation");
-//			repo=new ThirdOperationPage(driver);
-//			repo.Furniture();
-//			logger.info("Testing of Furniture operation done");
-//		}
-//		else {
-//			logger.error("Furniture is not activated");
-//		}
-//			
-//	}
+	@Test(groups={"regression"},priority=2)
+	public void Furniture() {
+		if(testExecutionInfo.containsKey("Furniture")) {
+			logger.info("Testing the Furniture  operation");
+			repo=new ThirdOperationPage(driver);
+			repo.Furniture();
+			logger.info("Testing of Furniture operation done");
+		}
+		else {
+			logger.error("Furniture is not activated");
+			Assert.fail("Furniture is not activated");
+		}
+			
+	}
 	
 	@Test(groups={"regression"},priority=3)
 	public void GiftCard() {
@@ -45,6 +48,7 @@ public class ThirdOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Gift Card is not activated");
+			Assert.fail("Gift Card is not activated");
 		}
 	}
 	
@@ -58,6 +62,7 @@ public class ThirdOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("GiftCardPersonal is not activated");
+			Assert.fail("GiftCardPersonal is not activated");
 		}
 	}
 	
@@ -71,6 +76,7 @@ public class ThirdOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Cart is not activated");
+			Assert.fail("Cart is not activated");
 		}
 		
 	}
@@ -85,6 +91,7 @@ public class ThirdOperationTest extends BaseTest {
 		}
 		else {
 			logger.error("Travel is not activated");
+			Assert.fail("Travel is not activated");
 		}
 	}
 }

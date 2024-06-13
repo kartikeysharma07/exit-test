@@ -16,9 +16,13 @@ import org.apache.poi.ss.usermodel.Sheet;
 public  class ReadExcelData {
 	
 	private static final Map<String, String> testInfo = new HashMap<>();
-    private static final String FILE_PATH = "C:\\Users\\kartikeysharma\\Automation_QA\\ExitTestFinal\\src\\test\\resources\\testdata\\Data.xlsx";
-	public static Map<String,String>testExecutionInfo() {
-//		Map<String,String>  testInfo=new HashMap<>();
+    private static final String FILE_PATH = System.getProperty("user.dir")+ File.separator + FileLocationReader.getExcelPath();
+	
+    //This method first ReadData from the Test Excel sheet and see which method are active or not.
+    //This method stores the details about the test which are active in the hashmap.
+    //This will help us to skip those test which are made inactive in the excel sheet.
+    
+    public static Map<String,String>testExecutionInfo() {
 		File file=new File(FILE_PATH);
 		FileInputStream fis;
 		try {
@@ -50,7 +54,7 @@ public  class ReadExcelData {
 	}
 	
 	
-	
+	//this method will read the TestData sheet for different sheets and it is used to provide data to different methods.
 	
 	public static String[][] getData(String excelSheetName) {
 		File file=new File(FILE_PATH);

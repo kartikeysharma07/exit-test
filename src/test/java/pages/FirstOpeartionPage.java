@@ -9,17 +9,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import locators.FirstLocators;
 import utility.AssertionClass;
-import utility.ReadExcelData;
+
 
 
 
 public class FirstOpeartionPage extends BasePage {
 	
 	WebElement search_box;
-	WebDriverWait wait ;
+	
 	
 	public FirstOpeartionPage(WebDriver driver) {
 		this.driver=driver;
@@ -43,6 +42,7 @@ public class FirstOpeartionPage extends BasePage {
 	
 	//in this method we are going to test for opeartion of grocery
 	//here we are searching for the snacks
+	//here we are setting the pincode then searching for item and adding it to cart
 	public void Grocery(String pin,String item) {
 		WebElement grocery_button=driver.findElement(By.xpath(FirstLocators.GROCERY_BUTTON));
 		grocery_button.click();
@@ -68,6 +68,7 @@ public class FirstOpeartionPage extends BasePage {
 
 	//in this method we are going to add an item to cart
 	//in this we are searching for the specific product and getting it's details
+	//then we will add the product in the cart
 	public void SpecficProduct() {
 		search_box=driver.findElement(By.xpath(FirstLocators.SEARCH_BOX));
 		wait.until(ExpectedConditions.visibilityOf(search_box));
@@ -94,6 +95,8 @@ public class FirstOpeartionPage extends BasePage {
 	}
 	
 	
+	//here we are writing the script for automating user to get details on how he would become the seller
+	//in the flipkart to sell his 
 	public void BecomeSeller(String mobile,String email) {
 		WebElement seller=driver.findElement(By.xpath(FirstLocators.SELLER));
 		wait.until(ExpectedConditions.elementToBeClickable(seller));
@@ -113,6 +116,9 @@ public class FirstOpeartionPage extends BasePage {
 		
 	}
 	
+	
+	//here in this we are selecting the dropdown icon from the homepage that selects the fashion
+	//inside we have different section and for each section we have different products for it.
 	public void Fashion(String section,String item) {
 		WebElement fashion_link=driver.findElement(By.xpath(FirstLocators.FASHION_LINK));
 		fashion_link.click();
@@ -129,6 +135,7 @@ public class FirstOpeartionPage extends BasePage {
 		Assert.assertNotEquals(current_url, url,AssertionClass.PRODUCT_ERROR_MESSAGE);
 	}
 	
+	//selecting the threedots icon in the homepage and selecting the options present inside that.
 	public void Notifications() {
 		driver.findElement(By.xpath(FirstLocators.DROPDOWN)).click();
 		driver.findElement(By.xpath(FirstLocators.CUSTOMER_CARE_LINK)).click();
@@ -141,6 +148,8 @@ public class FirstOpeartionPage extends BasePage {
 		Assert.assertEquals(current_page_title, expected_page_title,AssertionClass.NOTIFICATION_ERROR_PAGE);
 	}
 	
+	//selecting the twowheeler icon present in the homepage
+	//two wheeler we are selecting the petrol vehicle options
 	public void TwoWheeler() {		
 		
 		driver.findElement(By.xpath(FirstLocators.TWO_WHEELER)).click();
@@ -150,7 +159,4 @@ public class FirstOpeartionPage extends BasePage {
 	    Assert.assertNotEquals(current_url, expected_url,AssertionClass.PAGE_ERROR_MESSAGE);
 	    
 	}
-	
-
-	
 }

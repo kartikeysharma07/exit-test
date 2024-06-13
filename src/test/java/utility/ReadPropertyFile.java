@@ -3,6 +3,9 @@ package utility;
 import java.io.FileReader;
 import java.util.Properties;
 
+
+//This File provides the different details regarding the browser, url and waittime etc.
+// it provides the global parameters.
 public class ReadPropertyFile {
     
     private static String url;
@@ -15,7 +18,7 @@ public class ReadPropertyFile {
     }
 
     private static void configuration() {
-        String relativePath = "src/test/resources/configfiles/config.properties";
+        String relativePath = FileLocationReader.getConfigPath();
         String absolutePath = System.getProperty("user.dir") + "/" + relativePath;
         try {
             FileReader file = new FileReader(absolutePath);
