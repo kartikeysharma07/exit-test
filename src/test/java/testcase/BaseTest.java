@@ -24,6 +24,7 @@ public class BaseTest {
 	DriverConfiguration driverConfig;
 	public ReadPropertyFile prop;
     Map<String, String> testExecutionInfo;
+    public int wait_time=ReadPropertyFile.getWaitTime();
 	
 	static {
         System.setProperty("log4j.configurationFile", "src/test/resources/configfiles/log4j2.properties");
@@ -58,7 +59,7 @@ public class BaseTest {
 	    url=ReadPropertyFile.getUrl();
 	    driver.get(url);
 	    logger.info("Website Opened");
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(wait_time));
 	    driver.manage().window().maximize();
 	}
 	@AfterMethod

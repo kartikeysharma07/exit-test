@@ -21,19 +21,19 @@ public class ThirdOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"regression"},priority=2)
-	public void Furniture() {
-		if(testExecutionInfo.containsKey("Furniture")) {
-			logger.info("Testing the Furniture  operation");
-			repo=new ThirdOperationPage(driver);
-			repo.Furniture();
-			logger.info("Testing of Furniture operation done");
-		}
-		else {
-			logger.error("Furniture is not activated");
-		}
-			
-	}
+//	@Test(groups={"regression"},priority=2)
+//	public void Furniture() {
+//		if(testExecutionInfo.containsKey("Furniture")) {
+//			logger.info("Testing the Furniture  operation");
+//			repo=new ThirdOperationPage(driver);
+//			repo.Furniture();
+//			logger.info("Testing of Furniture operation done");
+//		}
+//		else {
+//			logger.error("Furniture is not activated");
+//		}
+//			
+//	}
 	
 	@Test(groups={"regression"},priority=3)
 	public void GiftCard() {

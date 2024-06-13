@@ -8,14 +8,34 @@
     <classes>
       <class name="testcase.SecondOperationTest">
         <methods>
-          <include name="Login"/>
+          <include name="Login" invocation-numbers="0"/>
           <include name="setUp_Configurations"/>
           <include name="tearDownClass"/>
           <include name="setup"/>
-          <include name="Signup"/>
+          <include name="Signup" invocation-numbers="0"/>
           <include name="tearDownTest"/>
+          <include name="Electronics"/>
         </methods>
       </class> <!-- testcase.SecondOperationTest -->
+      <class name="testcase.ThirdOperationTest">
+        <methods>
+          <include name="setUp_Configurations"/>
+          <include name="tearDownClass"/>
+          <include name="setup"/>
+          <include name="tearDownTest"/>
+          <include name="Furniture"/>
+        </methods>
+      </class> <!-- testcase.ThirdOperationTest -->
+      <class name="testcase.FirstOpeartionTest">
+        <methods>
+          <include name="setUp_Configurations"/>
+          <include name="tearDownClass"/>
+          <include name="setup"/>
+          <include name="tearDownTest"/>
+          <include name="fashion" invocation-numbers="0"/>
+          <include name="twowheeler"/>
+        </methods>
+      </class> <!-- testcase.FirstOpeartionTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

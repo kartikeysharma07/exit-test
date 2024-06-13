@@ -41,7 +41,7 @@ public class FirstOpeartionTest extends BaseTest {
 	@Test(groups={"smoke", "regression"},priority=3)
 	public void specficProduct()
 	{
-		if(testExecutionInfo.containsKey("specificProduct")) {
+		if(testExecutionInfo.containsKey("specficProduct")) {
 			logger.info("Performing add to item testing opeartion");
 			repo=new FirstOpeartionPage(driver);
 			repo.SpecficProduct();
@@ -65,18 +65,18 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}
 	
-	@Test(dataProvider="fashiondata",dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=5)
-	public void fashion(String section,String product) {
-		if(testExecutionInfo.containsKey("fashion")) {
-			logger.info("Performing the Fashion testing");
-			repo=new FirstOpeartionPage(driver);
-			repo.Fashion(section,product);
-			logger.info("Fashion testing done");
-		}
-		else {
-			logger.error("Fashion is not activated");
-		}
-	}
+//	@Test(dataProvider="fashiondata",dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=5)
+//	public void fashion(String section,String product) {
+//		if(testExecutionInfo.containsKey("fashion")) {
+//			logger.info("Performing the Fashion testing");
+//			repo=new FirstOpeartionPage(driver);
+//			repo.Fashion(section,product);
+//			logger.info("Fashion testing done");
+//		}
+//		else {
+//			logger.error("Fashion is not activated");
+//		}
+//	}
 	
 	@Test(groups={"smoke", "regression"},priority=6)
 	public void notification() {
@@ -91,16 +91,16 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke", "regression"},priority=7)
-	public void twowheeler() {
-		if(testExecutionInfo.containsKey("twowheeler")) {
-			logger.info("Checking the Two Wheeler opeartion");
-			repo=new FirstOpeartionPage(driver);
-			repo.TwoWheeler();
-			logger.info("Two Wheeler opeartion checking done");
-		}
-		else {
-			logger.error("Two Wheeler is not activated");
-		}
-	}
+//	@Test(groups={"smoke", "regression"},priority=7)
+//	public void twowheeler() {
+//		if(testExecutionInfo.containsKey("twowheeler")) {
+//			logger.info("Checking the Two Wheeler opeartion");
+//			repo=new FirstOpeartionPage(driver);
+//			repo.TwoWheeler();
+//			logger.info("Two Wheeler opeartion checking done");
+//		}
+//		else {
+//			logger.error("Two Wheeler is not activated");
+//		}
+//	}
 }

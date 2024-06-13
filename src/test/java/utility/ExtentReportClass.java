@@ -23,13 +23,12 @@ public class ExtentReportClass extends TakeScreenShot  implements ITestListener{
 	public void configureReport()
 	{
 		System.out.println("The extent is working");
-		String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
-		String reportName = "RestAssuredTestReport-" + timestamp + ".html";
+		String timestamp = new SimpleDateFormat("yyyy.mm.dd-hh.mm.ss").format(new Date());
+		String reportName = "ExitTestReport-" + timestamp + ".html";
 		htmlReporter = new ExtentSparkReporter("C:\\Users\\kartikeysharma\\Automation_QA\\ExitTestFinal\\src\\test\\resources\\reports\\"+ reportName);
 		reports = new ExtentReports();
 		reports.attachReporter(htmlReporter);		
 		htmlReporter.config().setDocumentTitle("Extent Report");
-		htmlReporter.config().setReportName("This is the extent report on Trello API");
 		htmlReporter.config().setTheme(Theme.DARK);
 		
 		

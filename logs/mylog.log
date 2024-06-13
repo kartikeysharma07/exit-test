@@ -612,3 +612,329 @@
 [INFO ] 2024-06-13 11:21:44.641 [main] ExitTest - Testing of Gift Card Failure operation done
 [INFO ] 2024-06-13 11:21:46.030 [main] ExitTest - quitting the driver
 [INFO ] 2024-06-13 11:21:46.030 [main] ExitTest - quitting the driver
+[ERROR] 2024-06-13 11:50:05.331 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-13 11:50:05.350 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-13 11:50:11.230 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:50:13.279 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:50:13.449 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-13 11:50:16.870 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-13 11:50:17.470 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:50:19.700 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:50:21.602 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 11:50:21.667 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 11:50:22.507 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:50:24.531 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:50:26.525 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:50:26.699 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-13 11:50:36.004 [main] ExitTest - Seller testing completed
+[INFO ] 2024-06-13 11:50:36.853 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:50:38.831 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:50:41.925 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:50:42.128 [main] ExitTest - Performing the Fashion testing
+[INFO ] 2024-06-13 11:50:52.044 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:50:54.106 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:50:56.002 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:50:56.078 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-13 11:50:58.042 [main] ExitTest - Notification opeartion checking done
+[INFO ] 2024-06-13 11:50:58.781 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:51:00.811 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:51:02.803 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:51:03.004 [main] ExitTest - Checking the Two Wheeler opeartion
+[INFO ] 2024-06-13 11:51:09.007 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:51:09.008 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:51:11.541 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:51:13.433 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:51:13.494 [main] ExitTest - Electronics Testing is being performed
+[INFO ] 2024-06-13 11:51:20.728 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:51:22.758 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:51:24.569 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:51:24.643 [main] ExitTest - Rewards Testing is being performed
+[INFO ] 2024-06-13 11:51:27.496 [main] ExitTest - Rewards testing is completed
+[INFO ] 2024-06-13 11:51:28.264 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:51:30.219 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:51:32.118 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:51:32.174 [main] ExitTest - Checking footer Careers section
+[INFO ] 2024-06-13 11:51:37.831 [main] ExitTest - Careers section testing done
+[INFO ] 2024-06-13 11:51:38.668 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 11:51:40.978 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 11:51:43.005 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 11:51:43.068 [main] ExitTest - Testing the login operation
+[ERROR] 2024-06-13 12:32:37.909 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-13 12:32:37.916 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-13 12:32:42.065 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:32:44.320 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:32:44.515 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-13 12:32:50.940 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-13 12:32:52.069 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:32:54.749 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:32:58.283 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:32:58.459 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:32:59.470 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:33:02.201 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:33:02.717 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:33:04.260 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-13 12:33:13.013 [main] ExitTest - Seller testing completed
+[INFO ] 2024-06-13 12:33:14.178 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:33:17.006 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:33:19.115 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:33:19.295 [main] ExitTest - Performing the Fashion testing
+[INFO ] 2024-06-13 12:33:29.740 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:33:31.954 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:33:34.476 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:33:34.642 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-13 12:33:36.545 [main] ExitTest - Notification opeartion checking done
+[INFO ] 2024-06-13 12:33:37.705 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:33:40.166 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:33:42.419 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:33:42.481 [main] ExitTest - Checking the Two Wheeler opeartion
+[INFO ] 2024-06-13 12:33:48.540 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:34:41.710 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:34:43.939 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:34:44.016 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:34:44.994 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:34:44.999 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:35:45.464 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:35:47.687 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:35:47.795 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:35:48.921 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:35:48.928 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:36:15.118 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:36:17.200 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:36:17.271 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:36:18.176 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:36:18.181 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:36:51.580 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:36:53.729 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:36:53.825 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:36:54.874 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:36:54.879 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:37:38.108 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:37:40.207 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:37:40.395 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-13 12:37:44.349 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-13 12:37:45.176 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:37:45.176 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:37:53.669 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:37:55.765 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:37:56.013 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:37:57.280 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:37:57.283 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:38:40.012 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:38:42.230 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:38:42.399 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:38:43.701 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:38:43.708 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:41:37.383 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:41:39.554 [main] ExitTest - Website Opened
+[ERROR] 2024-06-13 12:41:39.634 [main] ExitTest - Specific Product is not activated
+[INFO ] 2024-06-13 12:41:40.670 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:41:40.676 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:42:57.486 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:42:59.460 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:42:59.666 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-13 12:43:16.245 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:43:16.245 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:45:17.848 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:45:20.115 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:45:20.181 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-13 12:45:37.022 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:45:37.034 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:48:46.563 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:48:48.932 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:48:49.108 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-13 12:48:59.517 [main] ExitTest - Add to cart performed successfully
+[INFO ] 2024-06-13 12:49:00.686 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:49:00.686 [main] ExitTest - quitting the driver
+[ERROR] 2024-06-13 12:49:49.918 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-13 12:49:49.925 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-13 12:49:53.312 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:49:55.551 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:49:55.610 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-13 12:49:59.527 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-13 12:50:00.808 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:50:03.377 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:50:05.248 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:50:05.328 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-13 12:50:12.996 [main] ExitTest - Add to cart performed successfully
+[INFO ] 2024-06-13 12:50:14.106 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:50:16.997 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:50:19.382 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:50:19.455 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-13 12:50:27.619 [main] ExitTest - Seller testing completed
+[INFO ] 2024-06-13 12:50:28.693 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:50:31.263 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:50:33.520 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:50:33.629 [main] ExitTest - Performing the Fashion testing
+[INFO ] 2024-06-13 12:50:49.633 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:50:52.218 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:50:54.742 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:50:54.800 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-13 12:50:56.788 [main] ExitTest - Notification opeartion checking done
+[INFO ] 2024-06-13 12:50:57.925 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:51:00.189 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:51:01.230 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:51:02.869 [main] ExitTest - Checking the Two Wheeler opeartion
+[INFO ] 2024-06-13 12:51:15.904 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:51:15.904 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:51:18.177 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:51:20.465 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:51:20.526 [main] ExitTest - Electronics Testing is being performed
+[INFO ] 2024-06-13 12:51:32.973 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:51:35.378 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:51:37.499 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:51:37.555 [main] ExitTest - Rewards Testing is being performed
+[INFO ] 2024-06-13 12:51:40.802 [main] ExitTest - Rewards testing is completed
+[INFO ] 2024-06-13 12:51:41.678 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:51:43.966 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:51:46.104 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:51:46.164 [main] ExitTest - Checking footer Careers section
+[INFO ] 2024-06-13 12:51:51.332 [main] ExitTest - Careers section testing done
+[INFO ] 2024-06-13 12:51:52.352 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:51:54.824 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:51:56.921 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:51:56.980 [main] ExitTest - Testing the login operation
+[INFO ] 2024-06-13 12:52:01.528 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:52:03.656 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:52:05.745 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:52:05.794 [main] ExitTest - Testing the signup operation
+[INFO ] 2024-06-13 12:52:10.228 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:52:12.722 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:52:14.601 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:52:14.650 [main] ExitTest - Testing the shopsy site operation
+[INFO ] 2024-06-13 12:52:18.035 [main] ExitTest - Testing of shopsy site operation done
+[INFO ] 2024-06-13 12:52:19.227 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:52:21.382 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:52:23.423 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:52:23.474 [main] ExitTest - Testing the corporate website operation
+[INFO ] 2024-06-13 12:52:25.290 [main] ExitTest - Testing of corporate website operation done
+[INFO ] 2024-06-13 12:52:26.199 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:52:26.201 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:52:28.545 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:52:30.538 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:52:30.599 [main] ExitTest - Testing the Advertising  operation
+[INFO ] 2024-06-13 12:52:33.158 [main] ExitTest - Testing of Advertising operation done
+[INFO ] 2024-06-13 12:52:34.049 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:52:36.146 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:52:38.381 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:52:38.564 [main] ExitTest - Testing the Furniture  operation
+[INFO ] 2024-06-13 12:52:51.555 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:52:53.999 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:52:56.043 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:52:56.107 [main] ExitTest - Testing the Gift Card  operation
+[INFO ] 2024-06-13 12:52:59.802 [main] ExitTest - Testing of Gift Card operation done
+[INFO ] 2024-06-13 12:53:01.045 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:53:03.095 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:53:05.144 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:53:05.198 [main] ExitTest - Testing the Gift Card Failure  operation
+[INFO ] 2024-06-13 12:53:11.176 [main] ExitTest - Testing of Gift Card Failure operation done
+[INFO ] 2024-06-13 12:53:12.283 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:53:14.678 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:53:16.617 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:53:16.671 [main] ExitTest - Testing the Checking  operation
+[INFO ] 2024-06-13 12:53:18.358 [main] ExitTest - Testing of Checking operation done
+[INFO ] 2024-06-13 12:53:19.247 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:53:21.429 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:53:23.464 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:53:23.519 [main] ExitTest - Testing the Travel  operation
+[INFO ] 2024-06-13 12:53:25.016 [main] ExitTest - Testing of Travel operation done
+[INFO ] 2024-06-13 12:53:25.959 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:53:25.960 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:54:53.069 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:54:54.999 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:54:55.224 [main] ExitTest - Checking the Two Wheeler opeartion
+[INFO ] 2024-06-13 12:55:06.524 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:55:06.524 [main] ExitTest - quitting the driver
+[ERROR] 2024-06-13 12:58:58.911 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-13 12:58:58.921 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-13 12:59:02.483 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:59:04.475 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:59:04.548 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-13 12:59:09.657 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-13 12:59:10.414 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:59:12.789 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:59:14.957 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:59:15.020 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-13 12:59:24.140 [main] ExitTest - Add to cart performed successfully
+[INFO ] 2024-06-13 12:59:25.088 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:59:27.536 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:59:29.404 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:59:29.459 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-13 12:59:39.914 [main] ExitTest - Seller testing completed
+[INFO ] 2024-06-13 12:59:41.476 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 12:59:44.051 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 12:59:45.957 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 12:59:46.012 [main] ExitTest - Performing the Fashion testing
+[INFO ] 2024-06-13 13:00:04.087 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:00:06.734 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:00:08.716 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:00:08.781 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-13 13:00:11.002 [main] ExitTest - Notification opeartion checking done
+[INFO ] 2024-06-13 13:00:11.947 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:00:14.289 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:00:16.227 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:00:16.280 [main] ExitTest - Checking the Two Wheeler opeartion
+[INFO ] 2024-06-13 13:00:29.215 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:00:29.215 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:00:31.702 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:00:33.675 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:00:33.842 [main] ExitTest - Electronics Testing is being performed
+[INFO ] 2024-06-13 13:00:48.176 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:00:50.574 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:00:52.485 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:00:52.539 [main] ExitTest - Rewards Testing is being performed
+[INFO ] 2024-06-13 13:00:54.275 [main] ExitTest - Rewards testing is completed
+[INFO ] 2024-06-13 13:00:54.947 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:00:57.548 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:00:59.588 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:00:59.651 [main] ExitTest - Checking footer Careers section
+[INFO ] 2024-06-13 13:01:05.057 [main] ExitTest - Careers section testing done
+[INFO ] 2024-06-13 13:01:06.307 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:01:09.021 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:01:11.200 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:01:11.246 [main] ExitTest - Testing the login operation
+[INFO ] 2024-06-13 13:01:13.195 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:01:15.511 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:01:17.371 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:01:17.429 [main] ExitTest - Testing the signup operation
+[INFO ] 2024-06-13 13:01:21.667 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:01:23.930 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:01:26.014 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:01:26.187 [main] ExitTest - Testing the shopsy site operation
+[INFO ] 2024-06-13 13:01:29.203 [main] ExitTest - Testing of shopsy site operation done
+[INFO ] 2024-06-13 13:01:30.269 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:01:32.648 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:01:34.665 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:01:34.719 [main] ExitTest - Testing the corporate website operation
+[INFO ] 2024-06-13 13:01:36.548 [main] ExitTest - Testing of corporate website operation done
+[INFO ] 2024-06-13 13:01:37.566 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:01:37.567 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:01:40.053 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:01:42.079 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:01:42.137 [main] ExitTest - Testing the Advertising  operation
+[INFO ] 2024-06-13 13:01:45.125 [main] ExitTest - Testing of Advertising operation done
+[INFO ] 2024-06-13 13:01:46.063 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:01:48.243 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:01:50.171 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:01:50.229 [main] ExitTest - Testing the Furniture  operation
+[INFO ] 2024-06-13 13:02:01.803 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:02:03.880 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:02:06.169 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:02:06.225 [main] ExitTest - Testing the Gift Card  operation
+[INFO ] 2024-06-13 13:02:09.855 [main] ExitTest - Testing of Gift Card operation done
+[INFO ] 2024-06-13 13:02:11.026 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:02:13.528 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:02:15.348 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:02:15.402 [main] ExitTest - Testing the Gift Card Failure  operation
+[INFO ] 2024-06-13 13:02:21.436 [main] ExitTest - Testing of Gift Card Failure operation done
+[INFO ] 2024-06-13 13:02:22.544 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:02:24.948 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:02:27.158 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:02:27.207 [main] ExitTest - Testing the Checking  operation
+[INFO ] 2024-06-13 13:02:29.095 [main] ExitTest - Testing of Checking operation done
+[INFO ] 2024-06-13 13:02:30.019 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:02:32.288 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-13 13:02:34.270 [main] ExitTest - Website Opened
+[INFO ] 2024-06-13 13:02:34.331 [main] ExitTest - Testing the Travel  operation
+[INFO ] 2024-06-13 13:02:36.113 [main] ExitTest - Testing of Travel operation done
+[INFO ] 2024-06-13 13:02:37.150 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-13 13:02:37.152 [main] ExitTest - quitting the driver

@@ -23,7 +23,7 @@ public class FirstOpeartionPage extends BasePage {
 	
 	public FirstOpeartionPage(WebDriver driver) {
 		this.driver=driver;
-		this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		this.wait = new WebDriverWait(driver, Duration.ofSeconds(wait_time));
 	}
 	
 	//this opeartion will search the product in the website
@@ -59,17 +59,6 @@ public class FirstOpeartionPage extends BasePage {
 		WebElement add_item=driver.findElement(By.xpath(FirstLocators.ADD_ITEM));
 		wait.until(ExpectedConditions.elementToBeClickable(add_item));
 		add_item.click();
-		
-		Object[][] fashionData = ReadExcelData.getData("Details");
-		System.out.println(fashionData);
-        
-        // Now you can use the fashionData variable
-        for (Object[] row : fashionData) {
-            for (Object cell : row) {
-                System.out.print(cell + " ");
-            }
-            System.out.println();
-        }
 		String current_url=driver.getCurrentUrl();
 		String url=base_url;
 		Assert.assertNotEquals(current_url, url,AssertionClass.ORDER_ERROR_MESSAGE);
@@ -81,6 +70,7 @@ public class FirstOpeartionPage extends BasePage {
 	//in this we are searching for the specific product and getting it's details
 	public void SpecficProduct() {
 		search_box=driver.findElement(By.xpath(FirstLocators.SEARCH_BOX));
+		wait.until(ExpectedConditions.visibilityOf(search_box));
 		search_box.sendKeys("SAMSUNG Galaxy F55 5G (Apricot Crush, 256 GB)");
 		search_box.submit();
 		List<WebElement> products = driver.findElements(By.xpath(FirstLocators.PRODUCT_LIST));
@@ -94,7 +84,7 @@ public class FirstOpeartionPage extends BasePage {
         driver.switchTo().window(tabs.get(1));
         JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight/2)");
-		driver.findElement(By.xpath(FirstLocators.PRODUCT_LIST)).click();
+		driver.findElement(By.xpath(FirstLocators.ADD_TO_CART)).click();
 		driver.switchTo().window(tabs.get(1));
 		driver.findElement(By.xpath(FirstLocators.PLACE_ORDER)).click();
 		String current_url=driver.getCurrentUrl();
