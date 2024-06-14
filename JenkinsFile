@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    
+    tools {
+        maven "mvn"
+    }
+
+    triggers {
+        cron('H/15 * * * *')
+        pollSCM('H/15 * * * *')
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Checking out code from GitHub'
+                git 'https://github.com/kartikeysharma07/exit-test.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'mvn clean'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                bat "mvn clean test -DsuiteXMLFile=testng.xml"
+            }
+        }
+    }
+}
