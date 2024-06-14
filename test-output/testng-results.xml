@@ -2,47 +2,47 @@
 <testng-results ignored="0" total="20" passed="12" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-14T00:29:14 IST" name="Suite" finished-at="2024-06-14T00:32:29 IST" duration-ms="194824">
+  <suite started-at="2024-06-14T13:08:24 IST" name="Suite" finished-at="2024-06-14T13:12:05 IST" duration-ms="221573">
     <groups>
       <group name="regression">
-        <method signature="FirstOpeartionTest.search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@75437611]" name="search" class="testcase.FirstOpeartionTest"/>
-        <method signature="ThirdOperationTest.Advertise(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcase.ThirdOperationTest@15043a2f]" name="Advertise" class="testcase.ThirdOperationTest"/>
-        <method signature="FirstOpeartionTest.grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@75437611]" name="grocery" class="testcase.FirstOpeartionTest"/>
-        <method signature="ThirdOperationTest.Furniture()[pri:2, instance:testcase.ThirdOperationTest@15043a2f]" name="Furniture" class="testcase.ThirdOperationTest"/>
-        <method signature="FirstOpeartionTest.specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@75437611]" name="specficProduct" class="testcase.FirstOpeartionTest"/>
-        <method signature="SecondOperationTest.Careers(java.lang.String,java.lang.String)[pri:3, instance:testcase.SecondOperationTest@4c60d6e9]" name="Careers" class="testcase.SecondOperationTest"/>
-        <method signature="ThirdOperationTest.GiftCard()[pri:3, instance:testcase.ThirdOperationTest@15043a2f]" name="GiftCard" class="testcase.ThirdOperationTest"/>
-        <method signature="FirstOpeartionTest.becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@75437611]" name="becomeSeller" class="testcase.FirstOpeartionTest"/>
-        <method signature="SecondOperationTest.Login(java.lang.String)[pri:4, instance:testcase.SecondOperationTest@4c60d6e9]" name="Login" class="testcase.SecondOperationTest"/>
-        <method signature="ThirdOperationTest.GiftCardPersonal(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcase.ThirdOperationTest@15043a2f]" name="GiftCardPersonal" class="testcase.ThirdOperationTest"/>
-        <method signature="FirstOpeartionTest.fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@75437611]" name="fashion" class="testcase.FirstOpeartionTest"/>
-        <method signature="ThirdOperationTest.Cart(java.lang.String)[pri:5, instance:testcase.ThirdOperationTest@15043a2f]" name="Cart" class="testcase.ThirdOperationTest"/>
-        <method signature="FirstOpeartionTest.notification()[pri:6, instance:testcase.FirstOpeartionTest@75437611]" name="notification" class="testcase.FirstOpeartionTest"/>
-        <method signature="ThirdOperationTest.Travel()[pri:6, instance:testcase.ThirdOperationTest@15043a2f]" name="Travel" class="testcase.ThirdOperationTest"/>
-        <method signature="FirstOpeartionTest.twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@75437611]" name="twowheeler" class="testcase.FirstOpeartionTest"/>
+        <method signature="FirstOpeartionTest.search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@4a83a74a]" name="search" class="testcase.FirstOpeartionTest"/>
+        <method signature="ThirdOperationTest.Advertise(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcase.ThirdOperationTest@35dab4eb]" name="Advertise" class="testcase.ThirdOperationTest"/>
+        <method signature="FirstOpeartionTest.grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@4a83a74a]" name="grocery" class="testcase.FirstOpeartionTest"/>
+        <method signature="ThirdOperationTest.Furniture()[pri:2, instance:testcase.ThirdOperationTest@35dab4eb]" name="Furniture" class="testcase.ThirdOperationTest"/>
+        <method signature="FirstOpeartionTest.specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@4a83a74a]" name="specficProduct" class="testcase.FirstOpeartionTest"/>
+        <method signature="SecondOperationTest.Careers(java.lang.String,java.lang.String)[pri:3, instance:testcase.SecondOperationTest@8519cb4]" name="Careers" class="testcase.SecondOperationTest"/>
+        <method signature="ThirdOperationTest.GiftCard()[pri:3, instance:testcase.ThirdOperationTest@35dab4eb]" name="GiftCard" class="testcase.ThirdOperationTest"/>
+        <method signature="FirstOpeartionTest.becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@4a83a74a]" name="becomeSeller" class="testcase.FirstOpeartionTest"/>
+        <method signature="SecondOperationTest.Login(java.lang.String)[pri:4, instance:testcase.SecondOperationTest@8519cb4]" name="Login" class="testcase.SecondOperationTest"/>
+        <method signature="ThirdOperationTest.GiftCardPersonal(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcase.ThirdOperationTest@35dab4eb]" name="GiftCardPersonal" class="testcase.ThirdOperationTest"/>
+        <method signature="FirstOpeartionTest.fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@4a83a74a]" name="fashion" class="testcase.FirstOpeartionTest"/>
+        <method signature="ThirdOperationTest.Cart(java.lang.String)[pri:5, instance:testcase.ThirdOperationTest@35dab4eb]" name="Cart" class="testcase.ThirdOperationTest"/>
+        <method signature="FirstOpeartionTest.notification()[pri:6, instance:testcase.FirstOpeartionTest@4a83a74a]" name="notification" class="testcase.FirstOpeartionTest"/>
+        <method signature="ThirdOperationTest.Travel()[pri:6, instance:testcase.ThirdOperationTest@35dab4eb]" name="Travel" class="testcase.ThirdOperationTest"/>
+        <method signature="FirstOpeartionTest.twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@4a83a74a]" name="twowheeler" class="testcase.FirstOpeartionTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="FirstOpeartionTest.search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@75437611]" name="search" class="testcase.FirstOpeartionTest"/>
-        <method signature="SecondOperationTest.Electronics()[pri:1, instance:testcase.SecondOperationTest@4c60d6e9]" name="Electronics" class="testcase.SecondOperationTest"/>
-        <method signature="FirstOpeartionTest.grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@75437611]" name="grocery" class="testcase.FirstOpeartionTest"/>
-        <method signature="SecondOperationTest.Rewards()[pri:2, instance:testcase.SecondOperationTest@4c60d6e9]" name="Rewards" class="testcase.SecondOperationTest"/>
-        <method signature="FirstOpeartionTest.specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@75437611]" name="specficProduct" class="testcase.FirstOpeartionTest"/>
-        <method signature="FirstOpeartionTest.becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@75437611]" name="becomeSeller" class="testcase.FirstOpeartionTest"/>
-        <method signature="FirstOpeartionTest.fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@75437611]" name="fashion" class="testcase.FirstOpeartionTest"/>
-        <method signature="SecondOperationTest.Signup(java.lang.String)[pri:5, instance:testcase.SecondOperationTest@4c60d6e9]" name="Signup" class="testcase.SecondOperationTest"/>
-        <method signature="FirstOpeartionTest.notification()[pri:6, instance:testcase.FirstOpeartionTest@75437611]" name="notification" class="testcase.FirstOpeartionTest"/>
-        <method signature="SecondOperationTest.Shopsy()[pri:6, instance:testcase.SecondOperationTest@4c60d6e9]" name="Shopsy" class="testcase.SecondOperationTest"/>
-        <method signature="FirstOpeartionTest.twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@75437611]" name="twowheeler" class="testcase.FirstOpeartionTest"/>
-        <method signature="SecondOperationTest.CorporateWebsite()[pri:7, instance:testcase.SecondOperationTest@4c60d6e9]" name="CorporateWebsite" class="testcase.SecondOperationTest"/>
+        <method signature="FirstOpeartionTest.search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@4a83a74a]" name="search" class="testcase.FirstOpeartionTest"/>
+        <method signature="SecondOperationTest.Electronics()[pri:1, instance:testcase.SecondOperationTest@8519cb4]" name="Electronics" class="testcase.SecondOperationTest"/>
+        <method signature="FirstOpeartionTest.grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@4a83a74a]" name="grocery" class="testcase.FirstOpeartionTest"/>
+        <method signature="SecondOperationTest.Rewards()[pri:2, instance:testcase.SecondOperationTest@8519cb4]" name="Rewards" class="testcase.SecondOperationTest"/>
+        <method signature="FirstOpeartionTest.specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@4a83a74a]" name="specficProduct" class="testcase.FirstOpeartionTest"/>
+        <method signature="FirstOpeartionTest.becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@4a83a74a]" name="becomeSeller" class="testcase.FirstOpeartionTest"/>
+        <method signature="FirstOpeartionTest.fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@4a83a74a]" name="fashion" class="testcase.FirstOpeartionTest"/>
+        <method signature="SecondOperationTest.Signup(java.lang.String)[pri:5, instance:testcase.SecondOperationTest@8519cb4]" name="Signup" class="testcase.SecondOperationTest"/>
+        <method signature="FirstOpeartionTest.notification()[pri:6, instance:testcase.FirstOpeartionTest@4a83a74a]" name="notification" class="testcase.FirstOpeartionTest"/>
+        <method signature="SecondOperationTest.Shopsy()[pri:6, instance:testcase.SecondOperationTest@8519cb4]" name="Shopsy" class="testcase.SecondOperationTest"/>
+        <method signature="FirstOpeartionTest.twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@4a83a74a]" name="twowheeler" class="testcase.FirstOpeartionTest"/>
+        <method signature="SecondOperationTest.CorporateWebsite()[pri:7, instance:testcase.SecondOperationTest@8519cb4]" name="CorporateWebsite" class="testcase.SecondOperationTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-06-14T00:29:14 IST" name="Test" finished-at="2024-06-14T00:32:29 IST" duration-ms="194824">
+    <test started-at="2024-06-14T13:08:24 IST" name="Test" finished-at="2024-06-14T13:12:05 IST" duration-ms="221573">
       <class name="testcase.ThirdOperationTest">
-        <test-method is-config="true" signature="setUp_Configurations()[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:34 IST" name="setUp_Configurations" finished-at="2024-06-14T00:31:34 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp_Configurations()[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:05 IST" name="setUp_Configurations" finished-at="2024-06-14T13:11:05 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp_Configurations -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:34 IST" name="setup" finished-at="2024-06-14T00:31:38 IST" duration-ms="3962" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:06 IST" name="setup" finished-at="2024-06-14T13:11:11 IST" duration-ms="5008" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Advertise(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:38 IST" name="Advertise" data-provider="detail" finished-at="2024-06-14T00:31:40 IST" duration-ms="2651" status="PASS">
+        <test-method signature="Advertise(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:11 IST" name="Advertise" data-provider="detail" finished-at="2024-06-14T13:11:13 IST" duration-ms="2650" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Advertise -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:40 IST" name="tearDownTest" finished-at="2024-06-14T00:31:41 IST" duration-ms="793" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:13 IST" name="tearDownTest" finished-at="2024-06-14T13:11:14 IST" duration-ms="798" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Advertise status=SUCCESS method=ThirdOperationTest.Advertise(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcase.ThirdOperationTest@15043a2f] output={null}]]]>
+                <![CDATA[[TestResult name=Advertise status=SUCCESS method=ThirdOperationTest.Advertise(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcase.ThirdOperationTest@35dab4eb] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:41 IST" name="setup" finished-at="2024-06-14T00:31:45 IST" duration-ms="3992" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:14 IST" name="setup" finished-at="2024-06-14T13:11:18 IST" duration-ms="4044" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,29 +106,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Furniture()[pri:2, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:45 IST" name="Furniture" finished-at="2024-06-14T00:31:55 IST" duration-ms="10054" status="FAIL">
+        <test-method signature="Furniture()[pri:2, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:18 IST" name="Furniture" finished-at="2024-06-14T13:11:28 IST" duration-ms="10042" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Home & Furniture')]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a3194d04bdad7871ea7417f8c4327291, findElement {value=//span[contains(text(),'Home & Furniture')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60301/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a3194d04bdad7871ea7417f8c4327291]]>
+Command: [c90dcc9a84067a561ce85033bf4ca3d6, findElement {value=//span[contains(text(),'Home & Furniture')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58459/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c90dcc9a84067a561ce85033bf4ca3d6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Home & Furniture')]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a3194d04bdad7871ea7417f8c4327291, findElement {value=//span[contains(text(),'Home & Furniture')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60301/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a3194d04bdad7871ea7417f8c4327291
+Command: [c90dcc9a84067a561ce85033bf4ca3d6, findElement {value=//span[contains(text(),'Home & Furniture')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58459/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c90dcc9a84067a561ce85033bf4ca3d6
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -181,11 +181,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Furniture -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:55 IST" name="tearDownTest" finished-at="2024-06-14T00:31:58 IST" duration-ms="2495" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:28 IST" name="tearDownTest" finished-at="2024-06-14T13:11:31 IST" duration-ms="3256" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Furniture status=FAILURE method=ThirdOperationTest.Furniture()[pri:2, instance:testcase.ThirdOperationTest@15043a2f] output={null}]]]>
+                <![CDATA[[TestResult name=Furniture status=FAILURE method=ThirdOperationTest.Furniture()[pri:2, instance:testcase.ThirdOperationTest@35dab4eb] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -197,7 +197,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:31:58 IST" name="setup" finished-at="2024-06-14T00:32:02 IST" duration-ms="4293" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:31 IST" name="setup" finished-at="2024-06-14T13:11:35 IST" duration-ms="4150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,15 +208,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="GiftCard()[pri:3, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:02 IST" name="GiftCard" finished-at="2024-06-14T00:32:05 IST" duration-ms="2494" status="PASS">
+        <test-method signature="GiftCard()[pri:3, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:35 IST" name="GiftCard" finished-at="2024-06-14T13:11:38 IST" duration-ms="2687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GiftCard -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:05 IST" name="tearDownTest" finished-at="2024-06-14T00:32:05 IST" duration-ms="682" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:38 IST" name="tearDownTest" finished-at="2024-06-14T13:11:39 IST" duration-ms="992" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GiftCard status=SUCCESS method=ThirdOperationTest.GiftCard()[pri:3, instance:testcase.ThirdOperationTest@15043a2f] output={null}]]]>
+                <![CDATA[[TestResult name=GiftCard status=SUCCESS method=ThirdOperationTest.GiftCard()[pri:3, instance:testcase.ThirdOperationTest@35dab4eb] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -228,7 +228,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:05 IST" name="setup" finished-at="2024-06-14T00:32:09 IST" duration-ms="3988" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:39 IST" name="setup" finished-at="2024-06-14T13:11:44 IST" duration-ms="4746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="GiftCardPersonal(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:09 IST" name="GiftCardPersonal" data-provider="detail" finished-at="2024-06-14T00:32:16 IST" duration-ms="6677" status="PASS">
+        <test-method signature="GiftCardPersonal(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:44 IST" name="GiftCardPersonal" data-provider="detail" finished-at="2024-06-14T13:11:50 IST" duration-ms="6258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,11 +265,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GiftCardPersonal -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:16 IST" name="tearDownTest" finished-at="2024-06-14T00:32:16 IST" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:50 IST" name="tearDownTest" finished-at="2024-06-14T13:11:51 IST" duration-ms="964" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GiftCardPersonal status=SUCCESS method=ThirdOperationTest.GiftCardPersonal(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcase.ThirdOperationTest@15043a2f] output={null}]]]>
+                <![CDATA[[TestResult name=GiftCardPersonal status=SUCCESS method=ThirdOperationTest.GiftCardPersonal(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcase.ThirdOperationTest@35dab4eb] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -281,7 +281,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:16 IST" name="setup" finished-at="2024-06-14T00:32:21 IST" duration-ms="4256" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:51 IST" name="setup" finished-at="2024-06-14T13:11:56 IST" duration-ms="4580" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -292,7 +292,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Cart(java.lang.String)[pri:5, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:21 IST" name="Cart" data-provider="mobiledata" finished-at="2024-06-14T00:32:22 IST" duration-ms="1539" status="PASS">
+        <test-method signature="Cart(java.lang.String)[pri:5, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:56 IST" name="Cart" data-provider="mobiledata" finished-at="2024-06-14T13:11:58 IST" duration-ms="1760" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,11 +303,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cart -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:22 IST" name="tearDownTest" finished-at="2024-06-14T00:32:23 IST" duration-ms="730" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:58 IST" name="tearDownTest" finished-at="2024-06-14T13:11:58 IST" duration-ms="858" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Cart status=SUCCESS method=ThirdOperationTest.Cart(java.lang.String)[pri:5, instance:testcase.ThirdOperationTest@15043a2f] output={null}]]]>
+                <![CDATA[[TestResult name=Cart status=SUCCESS method=ThirdOperationTest.Cart(java.lang.String)[pri:5, instance:testcase.ThirdOperationTest@35dab4eb] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -319,7 +319,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:23 IST" name="setup" finished-at="2024-06-14T00:32:27 IST" duration-ms="4033" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:11:58 IST" name="setup" finished-at="2024-06-14T13:12:03 IST" duration-ms="4380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,15 +330,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Travel()[pri:6, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:27 IST" name="Travel" finished-at="2024-06-14T00:32:29 IST" duration-ms="1565" status="PASS">
+        <test-method signature="Travel()[pri:6, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:12:03 IST" name="Travel" finished-at="2024-06-14T13:12:04 IST" duration-ms="1665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Travel -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:29 IST" name="tearDownTest" finished-at="2024-06-14T00:32:29 IST" duration-ms="514" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:12:04 IST" name="tearDownTest" finished-at="2024-06-14T13:12:05 IST" duration-ms="931" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Travel status=SUCCESS method=ThirdOperationTest.Travel()[pri:6, instance:testcase.ThirdOperationTest@15043a2f] output={null}]]]>
+                <![CDATA[[TestResult name=Travel status=SUCCESS method=ThirdOperationTest.Travel()[pri:6, instance:testcase.ThirdOperationTest@35dab4eb] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -350,17 +350,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:testcase.ThirdOperationTest@15043a2f]" started-at="2024-06-14T00:32:29 IST" name="tearDownExtentReports" finished-at="2024-06-14T00:32:29 IST" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:testcase.ThirdOperationTest@35dab4eb]" started-at="2024-06-14T13:12:05 IST" name="tearDownExtentReports" finished-at="2024-06-14T13:12:05 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
       </class> <!-- testcase.ThirdOperationTest -->
       <class name="testcase.SecondOperationTest">
-        <test-method is-config="true" signature="setUp_Configurations()[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:32 IST" name="setUp_Configurations" finished-at="2024-06-14T00:30:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp_Configurations()[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:09:49 IST" name="setUp_Configurations" finished-at="2024-06-14T13:09:49 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp_Configurations -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:32 IST" name="setup" finished-at="2024-06-14T00:30:36 IST" duration-ms="4142" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:09:49 IST" name="setup" finished-at="2024-06-14T13:09:53 IST" duration-ms="4266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,29 +371,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Electronics()[pri:1, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:36 IST" name="Electronics" finished-at="2024-06-14T00:30:47 IST" duration-ms="11454" status="FAIL">
+        <test-method signature="Electronics()[pri:1, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:09:53 IST" name="Electronics" finished-at="2024-06-14T13:10:05 IST" duration-ms="11412" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Wired Headphones')]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [211fb71435cecaa09c2f214ce9263d0f, findElement {value=//a[contains(text(),'Wired Headphones')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59868/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 211fb71435cecaa09c2f214ce9263d0f]]>
+Command: [8b4acd2cce86c5eeafd20d6c00cbdde9, findElement {value=//a[contains(text(),'Wired Headphones')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58066}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58066/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b4acd2cce86c5eeafd20d6c00cbdde9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Wired Headphones')]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [211fb71435cecaa09c2f214ce9263d0f, findElement {value=//a[contains(text(),'Wired Headphones')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59868/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 211fb71435cecaa09c2f214ce9263d0f
+Command: [8b4acd2cce86c5eeafd20d6c00cbdde9, findElement {value=//a[contains(text(),'Wired Headphones')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58066}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58066/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b4acd2cce86c5eeafd20d6c00cbdde9
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -446,11 +446,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Electronics -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:47 IST" name="tearDownTest" finished-at="2024-06-14T00:30:48 IST" duration-ms="938" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:05 IST" name="tearDownTest" finished-at="2024-06-14T13:10:06 IST" duration-ms="1399" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Electronics status=FAILURE method=SecondOperationTest.Electronics()[pri:1, instance:testcase.SecondOperationTest@4c60d6e9] output={null}]]]>
+                <![CDATA[[TestResult name=Electronics status=FAILURE method=SecondOperationTest.Electronics()[pri:1, instance:testcase.SecondOperationTest@8519cb4] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -462,7 +462,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:48 IST" name="setup" finished-at="2024-06-14T00:30:52 IST" duration-ms="4398" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:06 IST" name="setup" finished-at="2024-06-14T13:10:11 IST" duration-ms="4366" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -473,15 +473,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Rewards()[pri:2, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:52 IST" name="Rewards" finished-at="2024-06-14T00:30:55 IST" duration-ms="2679" status="PASS">
+        <test-method signature="Rewards()[pri:2, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:11 IST" name="Rewards" finished-at="2024-06-14T13:10:12 IST" duration-ms="1596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Rewards -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:55 IST" name="tearDownTest" finished-at="2024-06-14T00:30:56 IST" duration-ms="835" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:12 IST" name="tearDownTest" finished-at="2024-06-14T13:10:13 IST" duration-ms="842" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Rewards status=SUCCESS method=SecondOperationTest.Rewards()[pri:2, instance:testcase.SecondOperationTest@4c60d6e9] output={null}]]]>
+                <![CDATA[[TestResult name=Rewards status=SUCCESS method=SecondOperationTest.Rewards()[pri:2, instance:testcase.SecondOperationTest@8519cb4] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -493,7 +493,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:30:56 IST" name="setup" finished-at="2024-06-14T00:31:00 IST" duration-ms="3970" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:13 IST" name="setup" finished-at="2024-06-14T13:10:18 IST" duration-ms="4561" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -504,7 +504,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Careers(java.lang.String,java.lang.String)[pri:3, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:00 IST" name="Careers" data-provider="credentials" finished-at="2024-06-14T00:31:03 IST" duration-ms="2757" status="FAIL">
+        <test-method signature="Careers(java.lang.String,java.lang.String)[pri:3, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:18 IST" name="Careers" data-provider="credentials" finished-at="2024-06-14T13:10:28 IST" duration-ms="10366" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -517,30 +517,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[stale element reference: stale element not found in the current frame
-  (Session info: chrome=125.0.6422.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Life At Flipkart')]"}
+  (Session info: chrome=126.0.6478.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b3f729120b05db9e4e1daa5bca00195, clickElement {id=f.7AF6CBE6EF9E65D84B85334A09B6EB92.d.4F1D16310786D96290D2D436D20B3DB0.e.37}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59958/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9b3f729120b05db9e4e1daa5bca00195)] -> xpath: //a[@id='candidate-login-before' and contains(text(),'Candidate Login')]]
-Session ID: 9b3f729120b05db9e4e1daa5bca00195]]>
+Command: [f94eca8e5336e0aa5570db54959e36c9, findElement {value=//a[contains(text(),'Life At Flipkart')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58157/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f94eca8e5336e0aa5570db54959e36c9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=125.0.6422.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Life At Flipkart')]"}
+  (Session info: chrome=126.0.6478.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b3f729120b05db9e4e1daa5bca00195, clickElement {id=f.7AF6CBE6EF9E65D84B85334A09B6EB92.d.4F1D16310786D96290D2D436D20B3DB0.e.37}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59958/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9b3f729120b05db9e4e1daa5bca00195)] -> xpath: //a[@id='candidate-login-before' and contains(text(),'Candidate Login')]]
-Session ID: 9b3f729120b05db9e4e1daa5bca00195
+Command: [f94eca8e5336e0aa5570db54959e36c9, findElement {value=//a[contains(text(),'Life At Flipkart')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58157/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f94eca8e5336e0aa5570db54959e36c9
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -553,9 +551,11 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pages.SecondOperationPage.Careers(SecondOperationPage.java:74)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at pages.SecondOperationPage.Careers(SecondOperationPage.java:73)
 at testcase.SecondOperationTest.Careers(SecondOperationTest.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -587,15 +587,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Careers -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:03 IST" name="tearDownTest" finished-at="2024-06-14T00:31:04 IST" duration-ms="1411" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:28 IST" name="tearDownTest" finished-at="2024-06-14T13:10:29 IST" duration-ms="1270" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Careers status=FAILURE method=SecondOperationTest.Careers(java.lang.String,java.lang.String)[pri:3, instance:testcase.SecondOperationTest@4c60d6e9] output={null}]]]>
+                <![CDATA[[TestResult name=Careers status=FAILURE method=SecondOperationTest.Careers(java.lang.String,java.lang.String)[pri:3, instance:testcase.SecondOperationTest@8519cb4] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -607,7 +607,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:04 IST" name="setup" finished-at="2024-06-14T00:31:08 IST" duration-ms="4220" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:29 IST" name="setup" finished-at="2024-06-14T13:10:34 IST" duration-ms="4751" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -618,7 +618,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login(java.lang.String)[pri:4, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:08 IST" name="Login" data-provider="mobiledata" finished-at="2024-06-14T00:31:11 IST" duration-ms="2632" status="FAIL">
+        <test-method signature="Login(java.lang.String)[pri:4, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:34 IST" name="Login" data-provider="mobiledata" finished-at="2024-06-14T13:10:36 IST" duration-ms="2393" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -673,11 +673,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:11 IST" name="tearDownTest" finished-at="2024-06-14T00:31:12 IST" duration-ms="844" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:36 IST" name="tearDownTest" finished-at="2024-06-14T13:10:38 IST" duration-ms="1391" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=FAILURE method=SecondOperationTest.Login(java.lang.String)[pri:4, instance:testcase.SecondOperationTest@4c60d6e9] output={null}]]]>
+                <![CDATA[[TestResult name=Login status=FAILURE method=SecondOperationTest.Login(java.lang.String)[pri:4, instance:testcase.SecondOperationTest@8519cb4] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -689,7 +689,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:12 IST" name="setup" finished-at="2024-06-14T00:31:16 IST" duration-ms="3994" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:38 IST" name="setup" finished-at="2024-06-14T13:10:43 IST" duration-ms="4838" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -700,7 +700,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Signup(java.lang.String)[pri:5, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:16 IST" name="Signup" data-provider="mobiledata" finished-at="2024-06-14T00:31:18 IST" duration-ms="2544" status="FAIL">
+        <test-method signature="Signup(java.lang.String)[pri:5, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:43 IST" name="Signup" data-provider="mobiledata" finished-at="2024-06-14T13:10:48 IST" duration-ms="5302" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -755,11 +755,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:18 IST" name="tearDownTest" finished-at="2024-06-14T00:31:19 IST" duration-ms="957" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:48 IST" name="tearDownTest" finished-at="2024-06-14T13:10:49 IST" duration-ms="1152" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Signup status=FAILURE method=SecondOperationTest.Signup(java.lang.String)[pri:5, instance:testcase.SecondOperationTest@4c60d6e9] output={null}]]]>
+                <![CDATA[[TestResult name=Signup status=FAILURE method=SecondOperationTest.Signup(java.lang.String)[pri:5, instance:testcase.SecondOperationTest@8519cb4] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -771,7 +771,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:19 IST" name="setup" finished-at="2024-06-14T00:31:23 IST" duration-ms="4112" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:49 IST" name="setup" finished-at="2024-06-14T13:10:54 IST" duration-ms="4384" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -782,15 +782,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Shopsy()[pri:6, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:23 IST" name="Shopsy" finished-at="2024-06-14T00:31:26 IST" duration-ms="2710" status="PASS">
+        <test-method signature="Shopsy()[pri:6, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:54 IST" name="Shopsy" finished-at="2024-06-14T13:10:57 IST" duration-ms="3064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Shopsy -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:26 IST" name="tearDownTest" finished-at="2024-06-14T00:31:27 IST" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:57 IST" name="tearDownTest" finished-at="2024-06-14T13:10:58 IST" duration-ms="1385" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Shopsy status=SUCCESS method=SecondOperationTest.Shopsy()[pri:6, instance:testcase.SecondOperationTest@4c60d6e9] output={null}]]]>
+                <![CDATA[[TestResult name=Shopsy status=SUCCESS method=SecondOperationTest.Shopsy()[pri:6, instance:testcase.SecondOperationTest@8519cb4] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -802,7 +802,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:27 IST" name="setup" finished-at="2024-06-14T00:31:31 IST" duration-ms="4151" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:10:58 IST" name="setup" finished-at="2024-06-14T13:11:03 IST" duration-ms="4685" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -813,15 +813,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CorporateWebsite()[pri:7, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:31 IST" name="CorporateWebsite" finished-at="2024-06-14T00:31:33 IST" duration-ms="1910" status="PASS">
+        <test-method signature="CorporateWebsite()[pri:7, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:11:03 IST" name="CorporateWebsite" finished-at="2024-06-14T13:11:04 IST" duration-ms="1675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CorporateWebsite -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:33 IST" name="tearDownTest" finished-at="2024-06-14T00:31:34 IST" duration-ms="670" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:11:04 IST" name="tearDownTest" finished-at="2024-06-14T13:11:05 IST" duration-ms="926" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CorporateWebsite status=SUCCESS method=SecondOperationTest.CorporateWebsite()[pri:7, instance:testcase.SecondOperationTest@4c60d6e9] output={null}]]]>
+                <![CDATA[[TestResult name=CorporateWebsite status=SUCCESS method=SecondOperationTest.CorporateWebsite()[pri:7, instance:testcase.SecondOperationTest@8519cb4] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -833,17 +833,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:testcase.SecondOperationTest@4c60d6e9]" started-at="2024-06-14T00:31:34 IST" name="tearDownExtentReports" finished-at="2024-06-14T00:31:34 IST" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:testcase.SecondOperationTest@8519cb4]" started-at="2024-06-14T13:11:05 IST" name="tearDownExtentReports" finished-at="2024-06-14T13:11:05 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
       </class> <!-- testcase.SecondOperationTest -->
       <class name="testcase.FirstOpeartionTest">
-        <test-method is-config="true" signature="setUp_Configurations()[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:14 IST" name="setUp_Configurations" finished-at="2024-06-14T00:29:15 IST" duration-ms="788" status="PASS">
+        <test-method is-config="true" signature="setUp_Configurations()[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:24 IST" name="setUp_Configurations" finished-at="2024-06-14T13:08:25 IST" duration-ms="1384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp_Configurations -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:16 IST" name="setup" finished-at="2024-06-14T00:29:16 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:25 IST" name="setup" finished-at="2024-06-14T13:08:25 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -854,7 +854,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:16 IST" name="search" data-provider="searchdata" finished-at="2024-06-14T00:29:16 IST" duration-ms="12" status="FAIL">
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:25 IST" name="search" data-provider="searchdata" finished-at="2024-06-14T13:08:25 IST" duration-ms="10" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -909,11 +909,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:16 IST" name="tearDownTest" finished-at="2024-06-14T00:29:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:25 IST" name="tearDownTest" finished-at="2024-06-14T13:08:25 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=search status=FAILURE method=FirstOpeartionTest.search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@75437611] output={null}]]]>
+                <![CDATA[[TestResult name=search status=FAILURE method=FirstOpeartionTest.search(java.lang.String,java.lang.String)[pri:1, instance:testcase.FirstOpeartionTest@4a83a74a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -925,7 +925,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:16 IST" name="setup" finished-at="2024-06-14T00:29:21 IST" duration-ms="5024" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:25 IST" name="setup" finished-at="2024-06-14T13:08:30 IST" duration-ms="5009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -936,7 +936,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:21 IST" name="grocery" data-provider="grocerydata" finished-at="2024-06-14T00:29:26 IST" duration-ms="4404" status="PASS">
+        <test-method signature="grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:30 IST" name="grocery" data-provider="grocerydata" finished-at="2024-06-14T13:08:34 IST" duration-ms="3526" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -952,11 +952,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- grocery -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:26 IST" name="tearDownTest" finished-at="2024-06-14T00:29:26 IST" duration-ms="756" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:34 IST" name="tearDownTest" finished-at="2024-06-14T13:08:35 IST" duration-ms="1116" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=grocery status=SUCCESS method=FirstOpeartionTest.grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@75437611] output={null}]]]>
+                <![CDATA[[TestResult name=grocery status=SUCCESS method=FirstOpeartionTest.grocery(java.lang.String,java.lang.String)[pri:2, instance:testcase.FirstOpeartionTest@4a83a74a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -968,7 +968,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:26 IST" name="setup" finished-at="2024-06-14T00:29:31 IST" duration-ms="4568" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:35 IST" name="setup" finished-at="2024-06-14T13:08:40 IST" duration-ms="4537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -979,15 +979,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:31 IST" name="specficProduct" finished-at="2024-06-14T00:29:40 IST" duration-ms="8488" status="PASS">
+        <test-method signature="specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:40 IST" name="specficProduct" finished-at="2024-06-14T13:08:47 IST" duration-ms="7707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- specficProduct -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:40 IST" name="tearDownTest" finished-at="2024-06-14T00:29:40 IST" duration-ms="628" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:47 IST" name="tearDownTest" finished-at="2024-06-14T13:08:48 IST" duration-ms="938" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=specficProduct status=SUCCESS method=FirstOpeartionTest.specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@75437611] output={null}]]]>
+                <![CDATA[[TestResult name=specficProduct status=SUCCESS method=FirstOpeartionTest.specficProduct()[pri:3, instance:testcase.FirstOpeartionTest@4a83a74a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -999,7 +999,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:40 IST" name="setup" finished-at="2024-06-14T00:29:44 IST" duration-ms="4160" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:48 IST" name="setup" finished-at="2024-06-14T13:08:53 IST" duration-ms="4484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1010,7 +1010,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:44 IST" name="becomeSeller" data-provider="sellerdata" finished-at="2024-06-14T00:29:52 IST" duration-ms="7246" status="PASS">
+        <test-method signature="becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:08:53 IST" name="becomeSeller" data-provider="sellerdata" finished-at="2024-06-14T13:09:01 IST" duration-ms="7843" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1026,11 +1026,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- becomeSeller -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:52 IST" name="tearDownTest" finished-at="2024-06-14T00:29:52 IST" duration-ms="829" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:01 IST" name="tearDownTest" finished-at="2024-06-14T13:09:02 IST" duration-ms="1027" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=becomeSeller status=SUCCESS method=FirstOpeartionTest.becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@75437611] output={null}]]]>
+                <![CDATA[[TestResult name=becomeSeller status=SUCCESS method=FirstOpeartionTest.becomeSeller(java.lang.String,java.lang.String)[pri:4, instance:testcase.FirstOpeartionTest@4a83a74a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1042,7 +1042,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:52 IST" name="setup" finished-at="2024-06-14T00:29:57 IST" duration-ms="4066" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:02 IST" name="setup" finished-at="2024-06-14T13:09:07 IST" duration-ms="5340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1053,7 +1053,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:29:57 IST" name="fashion" data-provider="fashiondata" finished-at="2024-06-14T00:30:08 IST" duration-ms="11647" status="FAIL">
+        <test-method signature="fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:07 IST" name="fashion" data-provider="fashiondata" finished-at="2024-06-14T13:09:19 IST" duration-ms="11954" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1069,25 +1069,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Men's Top Wear")]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f4972221ebb0a77217676da081626fce, findElement {value=//a[contains(text(), "Men's Top Wear")], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59720/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f4972221ebb0a77217676da081626fce]]>
+Command: [73367aa3aaf26de80e92f2d34ac12e86, findElement {value=//a[contains(text(), "Men's Top Wear")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57897/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73367aa3aaf26de80e92f2d34ac12e86]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Men's Top Wear")]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f4972221ebb0a77217676da081626fce, findElement {value=//a[contains(text(), "Men's Top Wear")], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59720/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f4972221ebb0a77217676da081626fce
+Command: [73367aa3aaf26de80e92f2d34ac12e86, findElement {value=//a[contains(text(), "Men's Top Wear")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57897/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73367aa3aaf26de80e92f2d34ac12e86
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1140,11 +1140,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fashion -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:08 IST" name="tearDownTest" finished-at="2024-06-14T00:30:09 IST" duration-ms="1014" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:19 IST" name="tearDownTest" finished-at="2024-06-14T13:09:20 IST" duration-ms="1339" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fashion status=FAILURE method=FirstOpeartionTest.fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@75437611] output={null}]]]>
+                <![CDATA[[TestResult name=fashion status=FAILURE method=FirstOpeartionTest.fashion(java.lang.String,java.lang.String)[pri:5, instance:testcase.FirstOpeartionTest@4a83a74a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1156,7 +1156,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:09 IST" name="setup" finished-at="2024-06-14T00:30:13 IST" duration-ms="4252" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:20 IST" name="setup" finished-at="2024-06-14T13:09:27 IST" duration-ms="6284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1167,15 +1167,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="notification()[pri:6, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:13 IST" name="notification" finished-at="2024-06-14T00:30:15 IST" duration-ms="1742" status="PASS">
+        <test-method signature="notification()[pri:6, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:27 IST" name="notification" finished-at="2024-06-14T13:09:30 IST" duration-ms="3358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- notification -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:15 IST" name="tearDownTest" finished-at="2024-06-14T00:30:16 IST" duration-ms="758" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:30 IST" name="tearDownTest" finished-at="2024-06-14T13:09:31 IST" duration-ms="882" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=notification status=SUCCESS method=FirstOpeartionTest.notification()[pri:6, instance:testcase.FirstOpeartionTest@75437611] output={null}]]]>
+                <![CDATA[[TestResult name=notification status=SUCCESS method=FirstOpeartionTest.notification()[pri:6, instance:testcase.FirstOpeartionTest@4a83a74a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1187,7 +1187,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:16 IST" name="setup" finished-at="2024-06-14T00:30:20 IST" duration-ms="3898" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:31 IST" name="setup" finished-at="2024-06-14T13:09:35 IST" duration-ms="4445" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1198,29 +1198,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:20 IST" name="twowheeler" finished-at="2024-06-14T00:30:30 IST" duration-ms="10030" status="FAIL">
+        <test-method signature="twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:35 IST" name="twowheeler" finished-at="2024-06-14T13:09:45 IST" duration-ms="10020" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Two Wheelers')]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2fd84e40ec0290f060ef9a86051e5d9e, findElement {value=//span[contains(text(),'Two Wheelers')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2fd84e40ec0290f060ef9a86051e5d9e]]>
+Command: [8ec7c966111080d8b07700d973240a68, findElement {value=//span[contains(text(),'Two Wheelers')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58023}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58023/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ec7c966111080d8b07700d973240a68]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Two Wheelers')]"}
-  (Session info: chrome=125.0.6422.142)
+  (Session info: chrome=126.0.6478.56)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2fd84e40ec0290f060ef9a86051e5d9e, findElement {value=//span[contains(text(),'Two Wheelers')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2fd84e40ec0290f060ef9a86051e5d9e
+Command: [8ec7c966111080d8b07700d973240a68, findElement {value=//span[contains(text(),'Two Wheelers')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\KARTIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58023}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58023/devtoo..., se:cdpVersion: 126.0.6478.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ec7c966111080d8b07700d973240a68
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1273,11 +1273,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twowheeler -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:30 IST" name="tearDownTest" finished-at="2024-06-14T00:30:31 IST" duration-ms="1107" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:45 IST" name="tearDownTest" finished-at="2024-06-14T13:09:49 IST" duration-ms="3328" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=twowheeler status=FAILURE method=FirstOpeartionTest.twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@75437611] output={null}]]]>
+                <![CDATA[[TestResult name=twowheeler status=FAILURE method=FirstOpeartionTest.twowheeler()[pri:7, instance:testcase.FirstOpeartionTest@4a83a74a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1289,7 +1289,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:testcase.FirstOpeartionTest@75437611]" started-at="2024-06-14T00:30:31 IST" name="tearDownExtentReports" finished-at="2024-06-14T00:30:32 IST" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:testcase.FirstOpeartionTest@4a83a74a]" started-at="2024-06-14T13:09:49 IST" name="tearDownExtentReports" finished-at="2024-06-14T13:09:49 IST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->

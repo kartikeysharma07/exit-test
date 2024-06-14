@@ -11,7 +11,7 @@ public class SecondOperationTest extends BaseTest {
 	
 	SecondOperationPage repo;
 	
-	@Test(groups={"smoke"},priority=1)
+	@Test(groups={"smoke"},priority=1,enabled=true)
 	public void Electronics() {
 		if(testExecutionInfo.containsKey("Electronics")) {
 			logger.info("Electronics Testing is being performed");
@@ -25,7 +25,7 @@ public class SecondOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke"},priority=2)
+	@Test(groups={"smoke"},priority=2,enabled=true)
 	public void Rewards() {
 		if(testExecutionInfo.containsKey("Rewards")) {
 			logger.info("Rewards Testing is being performed");
@@ -38,7 +38,7 @@ public class SecondOperationTest extends BaseTest {
 			Assert.fail("Rewards is not activated");
 		}
 	}
-	@Test(groups={"regression"},priority=3,dataProvider="credentials", dataProviderClass=DataProviderUtil.class)
+	@Test(groups={"regression"},priority=3,dataProvider="credentials", dataProviderClass=DataProviderUtil.class,enabled=true)
 	public void Careers(String email,String password) {
 		if(testExecutionInfo.containsKey("Careers")) {
 			logger.info("Checking footer Careers section");
@@ -51,7 +51,7 @@ public class SecondOperationTest extends BaseTest {
 			Assert.fail("Careers is not activated");
 		}
 	}
-	@Test(groups={"regression"},priority=4,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	@Test(groups={"regression"},priority=4,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class,enabled=true)
 	public void Login(String mobile) {
 		if(testExecutionInfo.containsKey("Login")) {
 			logger.info("Testing the login operation");
@@ -64,7 +64,7 @@ public class SecondOperationTest extends BaseTest {
 			Assert.fail("Login is not activated");
 		}
 	}	
-	@Test(groups={"smoke"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	@Test(groups={"smoke"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class,enabled=true)
 	public void Signup(String mobile) {
 		if(testExecutionInfo.containsKey("Signup")) 
 		{
@@ -78,7 +78,7 @@ public class SecondOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke"},priority=6)
+	@Test(groups={"smoke"},priority=6,enabled=true)
 	public void Shopsy() {
 		if(testExecutionInfo.containsKey("Shopsy")) {
 			logger.info("Testing the shopsy site operation");
@@ -92,7 +92,7 @@ public class SecondOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke"},priority=7)
+	@Test(groups={"smoke"},priority=7,enabled=true)
 	public void CorporateWebsite() {
 		if(testExecutionInfo.containsKey("CorporateWebsite")) {
 			logger.info("Testing the corporate website operation");

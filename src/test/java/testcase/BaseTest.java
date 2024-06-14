@@ -30,9 +30,9 @@ public class BaseTest {
 	WebDriver driver;
 	public static Logger logger;
 	String url;
-	DriverConfiguration driverConfig;
+	DriverConfiguration driverConfig=new DriverConfiguration();
 	public ReadPropertyFile prop;
-    Map<String, String> testExecutionInfo;
+	static  Map<String, String> testExecutionInfo;
     public int wait_time=ReadPropertyFile.getWaitTime();
     ExtentSparkReporter  htmlReporter;
 	ExtentReports reports;
@@ -42,24 +42,31 @@ public class BaseTest {
 	static {
         System.setProperty("log4j.configurationFile", LogPath);
     }
+	
 
 	//this method checks before every method execution that whether the test is activated or not.
 	//it checks that given method is present in the hashmap? If it is then the method is marked active in the 
 	//Main Tests File.
 	public boolean isActive(String methodName) {
-		testExecutionInfo=ReadExcelData.testExecutionInfo();
-	    if (!testExecutionInfo.containsKey(methodName)) {
-	        logger.error("Test operation is not active for the " + methodName);
-	        return false;
-	    }
-	    
-	    return true;
+//	    if (!testExecutionInfo.containsKey(methodName)) {
+//	        logger.error("Test operation is not active for the " + methodName);
+//	        return false;
+//	    }
+//	    
+//	    return true;
+		
+		if (testExecutionInfo == null || !testExecutionInfo.containsKey(methodName)) {
+            logger.error("Test operation is not active for the " + methodName);
+            return false;
+        }
+        return true;
 	}
 	
 	//In the before class we are setting up the extent report that will generated per class.
 	@BeforeClass
 	public void setUp_Configurations() {
 		logger = LogManager.getLogger("ExitTest");
+		testExecutionInfo = ReadExcelData.testExecutionInfo();
 		logger.info("The extent is working");
 		String timestamp = new SimpleDateFormat("yyyy.mm.dd-hh.mm.ss").format(new Date());
 		String reportName = "TestReport-" + timestamp + ".html";
@@ -76,7 +83,6 @@ public class BaseTest {
             reports.flush();
         }
     } 
-		
 	@BeforeMethod()
 	public void setup(Method method) {
 	    String methodName = method.getName();
@@ -102,6 +108,7 @@ public class BaseTest {
 				logger.error("Name of test method failed From Extent Report:" + Result.getName());  		
 				test = reports.createTest(Result.getName());
 				String path=TakeScreenShot.getScreenshot(driver, Result.getName());
+				logger.info("Taking screenshot of the case");
 				test.info("The is for the test :"+ Result.getName())
 				.addScreenCaptureFromPath(path);
 				test.log(Status.FAIL, MarkupHelper.createLabel("Name of the failed test case is: " + Result.getName() ,ExtentColor.RED));

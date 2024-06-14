@@ -1991,3 +1991,376 @@
 [INFO ] 2024-06-14 00:32:29.103 [main] ExitTest - Testing of Travel operation done
 [INFO ] 2024-06-14 00:32:29.104 [main] ExitTest - Name of test method sucessfully executed:Travel
 [INFO ] 2024-06-14 00:32:29.618 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:13:18.587 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:13:19.005 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:13:19.067 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 11:13:19.233 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 11:13:19.324 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 11:13:19.407 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-14 11:13:19.460 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-14 11:13:19.516 [main] ExitTest - Performing the Fashion testing
+[INFO ] 2024-06-14 11:13:19.522 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-14 11:13:19.527 [main] ExitTest - Checking the Two Wheeler opeartion
+[INFO ] 2024-06-14 11:13:19.534 [main] ExitTest - Electronics Testing is being performed
+[INFO ] 2024-06-14 11:13:19.565 [main] ExitTest - Rewards Testing is being performed
+[INFO ] 2024-06-14 11:13:19.616 [main] ExitTest - Testing the signup operation
+[INFO ] 2024-06-14 11:13:19.620 [main] ExitTest - Testing the shopsy site operation
+[INFO ] 2024-06-14 11:13:19.626 [main] ExitTest - Testing the corporate website operation
+[INFO ] 2024-06-14 11:15:07.406 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 11:15:08.414 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 11:15:08.424 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 11:15:12.210 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:15:19.843 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:15:19.928 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:15:20.269 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:15:22.441 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:15:23.892 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:17:21.226 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 11:17:22.358 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 11:17:22.366 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 11:17:25.200 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:17:27.698 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:27:10.606 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 11:27:11.681 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 11:27:11.687 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 11:27:15.034 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:27:16.138 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:27:16.363 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:29:53.064 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:29:56.805 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:29:58.863 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:29:58.924 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 11:30:05.887 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 11:30:05.894 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 11:30:06.650 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:32:27.618 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:32:31.722 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:32:33.603 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:32:33.671 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 11:32:37.206 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 11:32:37.215 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 11:32:37.947 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:36:55.204 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:36:58.988 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:37:00.848 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:37:00.916 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 11:37:03.726 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 11:37:03.729 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 11:37:04.362 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:38:59.755 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:39:03.875 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:39:11.370 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:39:11.602 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 11:39:15.108 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 11:39:15.114 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 11:39:15.715 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:42:29.256 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 11:42:30.502 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 11:42:30.504 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 11:42:34.235 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:42:36.238 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:42:36.291 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 11:42:42.036 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 11:42:42.039 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 11:42:43.251 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:42:46.002 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:42:47.778 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:42:47.822 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-14 11:42:57.218 [main] ExitTest - Add to cart performed successfully
+[INFO ] 2024-06-14 11:42:57.220 [main] ExitTest - Name of test method sucessfully executed:specficProduct
+[INFO ] 2024-06-14 11:42:58.332 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:43:00.935 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:43:04.004 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:43:04.044 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-14 11:43:13.673 [main] ExitTest - Seller testing completed
+[INFO ] 2024-06-14 11:43:13.675 [main] ExitTest - Name of test method sucessfully executed:becomeSeller
+[INFO ] 2024-06-14 11:43:14.897 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:43:17.773 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:43:19.675 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:43:19.720 [main] ExitTest - Performing the Fashion testing
+[ERROR] 2024-06-14 11:43:31.434 [main] ExitTest - Name of test method failed From Extent Report:fashion
+[INFO ] 2024-06-14 11:43:32.093 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 11:43:33.540 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:43:36.354 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:43:38.366 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:43:38.600 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-14 11:43:40.629 [main] ExitTest - Notification opeartion checking done
+[INFO ] 2024-06-14 11:43:40.630 [main] ExitTest - Name of test method sucessfully executed:notification
+[INFO ] 2024-06-14 11:43:41.794 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:43:44.312 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:43:44.717 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:43:46.290 [main] ExitTest - Checking the Two Wheeler opeartion
+[ERROR] 2024-06-14 11:43:56.318 [main] ExitTest - Name of test method failed From Extent Report:twowheeler
+[INFO ] 2024-06-14 11:43:57.074 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 11:44:00.245 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:44:00.793 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:44:03.988 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:44:06.211 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:44:06.411 [main] ExitTest - Electronics Testing is being performed
+[ERROR] 2024-06-14 11:44:18.260 [main] ExitTest - Name of test method failed From Extent Report:Electronics
+[INFO ] 2024-06-14 11:44:18.825 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 11:44:21.198 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:44:24.969 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:44:25.499 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:44:27.301 [main] ExitTest - Rewards Testing is being performed
+[INFO ] 2024-06-14 11:44:31.375 [main] ExitTest - Rewards testing is completed
+[INFO ] 2024-06-14 11:44:31.376 [main] ExitTest - Name of test method sucessfully executed:Rewards
+[INFO ] 2024-06-14 11:44:34.191 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:44:37.977 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:44:40.433 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:44:40.932 [main] ExitTest - Checking footer Careers section
+[ERROR] 2024-06-14 11:44:53.183 [main] ExitTest - Name of test method failed From Extent Report:Careers
+[INFO ] 2024-06-14 11:44:53.637 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 11:44:56.942 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:45:00.302 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:45:02.609 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:45:02.672 [main] ExitTest - Testing the login operation
+[ERROR] 2024-06-14 11:45:06.300 [main] ExitTest - Name of test method failed From Extent Report:Login
+[INFO ] 2024-06-14 11:45:06.844 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 11:45:08.031 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:45:10.814 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:45:12.720 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:45:12.775 [main] ExitTest - Testing the signup operation
+[ERROR] 2024-06-14 11:45:15.411 [main] ExitTest - Name of test method failed From Extent Report:Signup
+[INFO ] 2024-06-14 11:45:15.787 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 11:45:16.863 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:45:19.602 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:45:22.142 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:45:22.185 [main] ExitTest - Testing the shopsy site operation
+[INFO ] 2024-06-14 11:45:26.177 [main] ExitTest - Testing of shopsy site operation done
+[INFO ] 2024-06-14 11:45:26.179 [main] ExitTest - Name of test method sucessfully executed:Shopsy
+[INFO ] 2024-06-14 11:45:27.522 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:45:30.142 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:45:32.096 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:45:32.205 [main] ExitTest - Testing the corporate website operation
+[INFO ] 2024-06-14 11:45:34.612 [main] ExitTest - Testing of corporate website operation done
+[INFO ] 2024-06-14 11:45:34.613 [main] ExitTest - Name of test method sucessfully executed:CorporateWebsite
+[INFO ] 2024-06-14 11:45:35.910 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:45:35.981 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 11:45:38.598 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:45:40.653 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:45:40.704 [main] ExitTest - Testing the Advertising  operation
+[INFO ] 2024-06-14 11:45:43.731 [main] ExitTest - Testing of Advertising operation done
+[INFO ] 2024-06-14 11:45:43.732 [main] ExitTest - Name of test method sucessfully executed:Advertise
+[INFO ] 2024-06-14 11:45:44.842 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:45:47.307 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:45:49.362 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:45:49.398 [main] ExitTest - Testing the Furniture  operation
+[ERROR] 2024-06-14 11:45:59.463 [main] ExitTest - Name of test method failed From Extent Report:Furniture
+[INFO ] 2024-06-14 11:46:00.276 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 11:46:01.527 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:46:03.828 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:46:05.916 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:46:05.962 [main] ExitTest - Testing the Gift Card  operation
+[INFO ] 2024-06-14 11:46:08.555 [main] ExitTest - Testing of Gift Card operation done
+[INFO ] 2024-06-14 11:46:08.556 [main] ExitTest - Name of test method sucessfully executed:GiftCard
+[INFO ] 2024-06-14 11:46:09.677 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:46:12.136 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:46:13.888 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:46:13.930 [main] ExitTest - Testing the Gift Card Failure  operation
+[INFO ] 2024-06-14 11:46:19.936 [main] ExitTest - Testing of Gift Card Failure operation done
+[INFO ] 2024-06-14 11:46:19.937 [main] ExitTest - Name of test method sucessfully executed:GiftCardPersonal
+[INFO ] 2024-06-14 11:46:21.187 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:46:23.675 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:46:25.474 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:46:25.507 [main] ExitTest - Testing the Checking  operation
+[INFO ] 2024-06-14 11:46:27.297 [main] ExitTest - Testing of Checking operation done
+[INFO ] 2024-06-14 11:46:27.298 [main] ExitTest - Name of test method sucessfully executed:Cart
+[INFO ] 2024-06-14 11:46:28.508 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 11:46:31.288 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 11:46:33.180 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 11:46:33.227 [main] ExitTest - Testing the Travel  operation
+[INFO ] 2024-06-14 11:46:34.718 [main] ExitTest - Testing of Travel operation done
+[INFO ] 2024-06-14 11:46:34.719 [main] ExitTest - Name of test method sucessfully executed:Travel
+[INFO ] 2024-06-14 11:46:35.920 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 12:47:19.173 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 12:47:19.543 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 12:47:19.549 [main] ExitTest - Searching is not activated
+[ERROR] 2024-06-14 12:47:19.564 [main] ExitTest - Name of test method failed From Extent Report:search
+[INFO ] 2024-06-14 12:47:19.753 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 12:47:20.482 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 12:47:20.571 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 12:47:20.695 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 12:47:20.697 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 12:47:20.858 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 12:47:20.902 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 12:48:33.099 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 12:48:34.403 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 12:48:34.409 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 12:48:37.795 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 12:48:39.901 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 12:48:39.955 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 12:48:47.438 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 12:48:47.440 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 12:48:48.189 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 12:48:50.488 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 12:48:52.401 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 12:48:52.452 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-14 12:57:25.006 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 12:57:29.225 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 12:57:31.123 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 12:57:31.182 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 12:57:37.292 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 12:57:37.297 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 12:57:38.398 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 12:58:06.331 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 12:58:06.673 [main] ExitTest - Test operation is not active for the search
+[INFO ] 2024-06-14 12:58:06.679 [main] ExitTest - Search is being performed
+[INFO ] 2024-06-14 13:04:31.515 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 13:04:31.813 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 13:04:31.820 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 13:04:35.086 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:04:37.134 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:04:37.180 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 13:04:41.218 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 13:04:41.225 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 13:04:42.246 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:04:44.394 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:04:46.613 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:04:46.662 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-14 13:04:56.333 [main] ExitTest - Add to cart performed successfully
+[INFO ] 2024-06-14 13:04:56.336 [main] ExitTest - Name of test method sucessfully executed:specficProduct
+[INFO ] 2024-06-14 13:04:57.265 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:04:59.724 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:05:01.822 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:05:01.866 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-14 13:05:11.535 [main] ExitTest - Seller testing completed
+[INFO ] 2024-06-14 13:05:11.537 [main] ExitTest - Name of test method sucessfully executed:becomeSeller
+[INFO ] 2024-06-14 13:05:12.661 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:05:15.129 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:05:17.383 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:05:17.484 [main] ExitTest - Performing the Fashion testing
+[ERROR] 2024-06-14 13:05:29.208 [main] ExitTest - Name of test method failed From Extent Report:fashion
+[INFO ] 2024-06-14 13:05:29.862 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:05:32.246 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:05:34.618 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:05:36.694 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:05:36.736 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-14 13:05:38.565 [main] ExitTest - Notification opeartion checking done
+[INFO ] 2024-06-14 13:05:38.570 [main] ExitTest - Name of test method sucessfully executed:notification
+[INFO ] 2024-06-14 13:05:39.377 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:05:41.792 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:05:43.816 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:05:43.854 [main] ExitTest - Checking the Two Wheeler opeartion
+[ERROR] 2024-06-14 13:05:53.903 [main] ExitTest - Name of test method failed From Extent Report:twowheeler
+[INFO ] 2024-06-14 13:05:54.701 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:05:55.722 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:08:25.594 [main] ExitTest - The extent is working
+[ERROR] 2024-06-14 13:08:25.864 [main] ExitTest - Test operation is not active for the search
+[ERROR] 2024-06-14 13:08:25.870 [main] ExitTest - Searching is not activated
+[INFO ] 2024-06-14 13:08:28.932 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:08:30.918 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:08:30.964 [main] ExitTest - Grocery Testing is being performed
+[INFO ] 2024-06-14 13:08:34.489 [main] ExitTest - Grocery testing is completed
+[INFO ] 2024-06-14 13:08:34.494 [main] ExitTest - Name of test method sucessfully executed:grocery
+[INFO ] 2024-06-14 13:08:35.607 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:08:38.225 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:08:38.656 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:08:40.149 [main] ExitTest - Performing add to item testing opeartion
+[INFO ] 2024-06-14 13:08:47.853 [main] ExitTest - Add to cart performed successfully
+[INFO ] 2024-06-14 13:08:47.857 [main] ExitTest - Name of test method sucessfully executed:specficProduct
+[INFO ] 2024-06-14 13:08:48.794 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:08:51.487 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:08:53.287 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:08:53.327 [main] ExitTest - Performing become a seller testigng
+[INFO ] 2024-06-14 13:09:01.169 [main] ExitTest - Seller testing completed
+[INFO ] 2024-06-14 13:09:01.170 [main] ExitTest - Name of test method sucessfully executed:becomeSeller
+[INFO ] 2024-06-14 13:09:02.197 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:09:04.698 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:09:07.549 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:09:07.592 [main] ExitTest - Performing the Fashion testing
+[ERROR] 2024-06-14 13:09:19.548 [main] ExitTest - Name of test method failed From Extent Report:fashion
+[INFO ] 2024-06-14 13:09:20.216 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:09:20.886 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:09:23.497 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:09:27.016 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:09:27.174 [main] ExitTest - Checking the notification opeartion
+[INFO ] 2024-06-14 13:09:30.530 [main] ExitTest - Notification opeartion checking done
+[INFO ] 2024-06-14 13:09:30.533 [main] ExitTest - Name of test method sucessfully executed:notification
+[INFO ] 2024-06-14 13:09:31.414 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:09:33.942 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:09:35.818 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:09:35.863 [main] ExitTest - Checking the Two Wheeler opeartion
+[ERROR] 2024-06-14 13:09:45.884 [main] ExitTest - Name of test method failed From Extent Report:twowheeler
+[INFO ] 2024-06-14 13:09:46.634 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:09:49.211 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:09:49.604 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 13:09:52.051 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:09:53.826 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:09:53.873 [main] ExitTest - Electronics Testing is being performed
+[ERROR] 2024-06-14 13:10:05.287 [main] ExitTest - Name of test method failed From Extent Report:Electronics
+[INFO ] 2024-06-14 13:10:05.708 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:10:06.685 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:10:08.942 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:10:11.011 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:10:11.055 [main] ExitTest - Rewards Testing is being performed
+[INFO ] 2024-06-14 13:10:12.649 [main] ExitTest - Rewards testing is completed
+[INFO ] 2024-06-14 13:10:12.652 [main] ExitTest - Name of test method sucessfully executed:Rewards
+[INFO ] 2024-06-14 13:10:13.493 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:10:16.107 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:10:18.081 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:10:18.125 [main] ExitTest - Checking footer Careers section
+[ERROR] 2024-06-14 13:10:28.492 [main] ExitTest - Name of test method failed From Extent Report:Careers
+[INFO ] 2024-06-14 13:10:28.857 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:10:29.762 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:10:32.472 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:10:34.522 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:10:34.563 [main] ExitTest - Testing the login operation
+[ERROR] 2024-06-14 13:10:36.958 [main] ExitTest - Name of test method failed From Extent Report:Login
+[INFO ] 2024-06-14 13:10:37.453 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:10:38.347 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:10:41.282 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:10:43.239 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:10:43.278 [main] ExitTest - Testing the signup operation
+[ERROR] 2024-06-14 13:10:48.581 [main] ExitTest - Name of test method failed From Extent Report:Signup
+[INFO ] 2024-06-14 13:10:48.922 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:10:49.732 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:10:51.943 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:10:54.066 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:10:54.119 [main] ExitTest - Testing the shopsy site operation
+[INFO ] 2024-06-14 13:10:57.182 [main] ExitTest - Testing of shopsy site operation done
+[INFO ] 2024-06-14 13:10:57.187 [main] ExitTest - Name of test method sucessfully executed:Shopsy
+[INFO ] 2024-06-14 13:10:58.571 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:11:01.164 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:11:03.221 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:11:03.258 [main] ExitTest - Testing the corporate website operation
+[INFO ] 2024-06-14 13:11:04.932 [main] ExitTest - Testing of corporate website operation done
+[INFO ] 2024-06-14 13:11:04.934 [main] ExitTest - Name of test method sucessfully executed:CorporateWebsite
+[INFO ] 2024-06-14 13:11:05.859 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:11:05.986 [main] ExitTest - The extent is working
+[INFO ] 2024-06-14 13:11:08.976 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:11:10.881 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:11:11.024 [main] ExitTest - Testing the Advertising  operation
+[INFO ] 2024-06-14 13:11:13.671 [main] ExitTest - Testing of Advertising operation done
+[INFO ] 2024-06-14 13:11:13.673 [main] ExitTest - Name of test method sucessfully executed:Advertise
+[INFO ] 2024-06-14 13:11:14.471 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:11:16.675 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:11:18.483 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:11:18.518 [main] ExitTest - Testing the Furniture  operation
+[ERROR] 2024-06-14 13:11:28.562 [main] ExitTest - Name of test method failed From Extent Report:Furniture
+[INFO ] 2024-06-14 13:11:29.307 [main] ExitTest - Taking screenshot of the case
+[INFO ] 2024-06-14 13:11:31.817 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:11:34.025 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:11:35.928 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:11:35.969 [main] ExitTest - Testing the Gift Card  operation
+[INFO ] 2024-06-14 13:11:38.655 [main] ExitTest - Testing of Gift Card operation done
+[INFO ] 2024-06-14 13:11:38.657 [main] ExitTest - Name of test method sucessfully executed:GiftCard
+[INFO ] 2024-06-14 13:11:39.648 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:11:42.339 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:11:44.396 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:11:44.429 [main] ExitTest - Testing the Gift Card Failure  operation
+[INFO ] 2024-06-14 13:11:50.686 [main] ExitTest - Testing of Gift Card Failure operation done
+[INFO ] 2024-06-14 13:11:50.688 [main] ExitTest - Name of test method sucessfully executed:GiftCardPersonal
+[INFO ] 2024-06-14 13:11:51.651 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:11:54.266 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:11:56.228 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:11:56.270 [main] ExitTest - Testing the Checking  operation
+[INFO ] 2024-06-14 13:11:58.030 [main] ExitTest - Testing of Checking operation done
+[INFO ] 2024-06-14 13:11:58.032 [main] ExitTest - Name of test method sucessfully executed:Cart
+[INFO ] 2024-06-14 13:11:58.889 [main] ExitTest - quitting the driver
+[INFO ] 2024-06-14 13:12:01.462 [main] ExitTest - Driver is set up
+[INFO ] 2024-06-14 13:12:03.238 [main] ExitTest - Website Opened
+[INFO ] 2024-06-14 13:12:03.273 [main] ExitTest - Testing the Travel  operation
+[INFO ] 2024-06-14 13:12:04.935 [main] ExitTest - Testing of Travel operation done
+[INFO ] 2024-06-14 13:12:04.937 [main] ExitTest - Name of test method sucessfully executed:Travel
+[INFO ] 2024-06-14 13:12:05.867 [main] ExitTest - quitting the driver

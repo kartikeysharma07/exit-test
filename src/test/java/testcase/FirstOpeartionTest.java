@@ -12,7 +12,7 @@ import pages.FirstOpeartionPage;
 public class FirstOpeartionTest extends BaseTest {
 	
 	FirstOpeartionPage repo;
-	@Test(dataProvider="searchdata", dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=1)
+	@Test(dataProvider="searchdata", dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=1,enabled=true)
 	public void search(String item,String model) {
 		if(testExecutionInfo.containsKey("search")) {
 			logger.info("Search is being performed");
@@ -26,7 +26,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}	
 	
-	@Test(dataProvider="grocerydata", dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=2)
+	@Test(dataProvider="grocerydata", dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=2,enabled=true)
 	public void grocery(String pincode,String item) {
 		if(testExecutionInfo.containsKey("grocery")) {
 			logger.info("Grocery Testing is being performed");
@@ -40,7 +40,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke", "regression"},priority=3)
+	@Test(groups={"smoke", "regression"},priority=3,enabled=true)
 	public void specficProduct()
 	{
 		if(testExecutionInfo.containsKey("specficProduct")) {
@@ -55,7 +55,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}
 	
-	@Test(dataProvider="sellerdata",dataProviderClass=DataProviderUtil.class,priority=4,groups={"smoke", "regression"})
+	@Test(dataProvider="sellerdata",dataProviderClass=DataProviderUtil.class,priority=4,groups={"smoke", "regression"},enabled=true)
 	public void becomeSeller(String mobile,String email) {
 		if(testExecutionInfo.containsKey("becomeSeller")) {
 			logger.info("Performing become a seller testigng");
@@ -69,7 +69,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}
 	
-	@Test(dataProvider="fashiondata",dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=5)
+	@Test(dataProvider="fashiondata",dataProviderClass=DataProviderUtil.class,groups={"smoke", "regression"},priority=5,enabled=true)
 	public void fashion(String section,String product) {
 		if(testExecutionInfo.containsKey("fashion")) {
 			logger.info("Performing the Fashion testing");
@@ -83,7 +83,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke", "regression"},priority=6)
+	@Test(groups={"smoke", "regression"},priority=6,enabled=true)
 	public void notification() {
 		if(testExecutionInfo.containsKey("notification")) {
 			logger.info("Checking the notification opeartion");
@@ -97,7 +97,7 @@ public class FirstOpeartionTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"smoke", "regression"},priority=7)
+	@Test(groups={"smoke", "regression"},priority=7,enabled=true)
 	public void twowheeler() {
 		if(testExecutionInfo.containsKey("twowheeler")) {
 			logger.info("Checking the Two Wheeler opeartion");

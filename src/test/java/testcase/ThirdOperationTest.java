@@ -9,7 +9,7 @@ public class ThirdOperationTest extends BaseTest {
 	
 	ThirdOperationPage repo;
 	
-	@Test(groups={"regression"},priority=1,dataProvider="detail",dataProviderClass=DataProviderUtil.class)
+	@Test(groups={"regression"},priority=1,dataProvider="detail",dataProviderClass=DataProviderUtil.class,enabled=true)
 	public void Advertise(String name,String email, String mobile, String password) {
 		if(testExecutionInfo.containsKey("Advertise")) {
 			logger.info("Testing the Advertising  operation");
@@ -23,7 +23,7 @@ public class ThirdOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"regression"},priority=2)
+	@Test(groups={"regression"},priority=2,enabled=true)
 	public void Furniture() {
 		if(testExecutionInfo.containsKey("Furniture")) {
 			logger.info("Testing the Furniture  operation");
@@ -38,7 +38,7 @@ public class ThirdOperationTest extends BaseTest {
 			
 	}
 	
-	@Test(groups={"regression"},priority=3)
+	@Test(groups={"regression"},priority=3,enabled=true)
 	public void GiftCard() {
 		if(testExecutionInfo.containsKey("GiftCard")) {
 			logger.info("Testing the Gift Card  operation");
@@ -52,7 +52,7 @@ public class ThirdOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"regression"},priority=4,dataProvider="detail",dataProviderClass=DataProviderUtil.class)
+	@Test(groups={"regression"},priority=4,dataProvider="detail",dataProviderClass=DataProviderUtil.class,enabled=true)
 	public void GiftCardPersonal(String name,String email, String mobile, String password) {
 		if(testExecutionInfo.containsKey("GiftCardPersonal")) {
 			logger.info("Testing the Gift Card Failure  operation");
@@ -66,7 +66,7 @@ public class ThirdOperationTest extends BaseTest {
 		}
 	}
 	
-	@Test(groups={"regression"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class)
+	@Test(groups={"regression"},priority=5,dataProvider="mobiledata",dataProviderClass=DataProviderUtil.class,enabled=true)
 	public void Cart(String mobile) {
 		if(testExecutionInfo.containsKey("Cart")) {
 			logger.info("Testing the Checking  operation");
@@ -81,7 +81,7 @@ public class ThirdOperationTest extends BaseTest {
 		
 	}
 	
-	@Test(groups={"regression"},priority=6)
+	@Test(groups={"regression"},priority=6,enabled=true)
 	public void Travel() {
 		if(testExecutionInfo.containsKey("Travel")) {
 			logger.info("Testing the Travel  operation");
